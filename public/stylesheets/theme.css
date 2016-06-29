@@ -1,0 +1,7975 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');
+
+html *
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+html
+{
+	height: 100%;
+	max-height: 100%;
+
+}
+body
+{
+	height: 100%;
+	max-height: 100%;
+	background: none;
+	counter-reset: question;             /* Set the question counter to 0  */
+}
+input[type=text]::-ms-clear
+{
+  display: none;
+  }
+  input[type=date]::-ms-clear
+{
+  display: none;
+  }
+.ModalWindow .modal-body
+{
+	padding:20px;
+}
+
+.modalButtonControl
+{
+	padding:0px;
+	padding-top:20px;
+}
+
+.modalButtonControl .mx-dataview-controls
+{
+	padding:0px;
+}
+
+/* Validation Messages */
+.alert {
+
+  padding: 3px 0px 2px 12px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 0px;
+  overflow:hidden;
+  width:225px;
+ 
+}
+select
+{
+	font-family:'Source Sans Pro';
+}
+select .form-control option
+{
+	font-family:'Source Sans Pro';
+}
+.alert-danger
+{
+  font-size:13px;
+  color: #cc0000;
+  background-repeat:no-repeat;
+  background-position:left top 4px;
+  background-image: url('../img/Layouts$FieldLevelError.png');
+  background-color:transparent;
+  width:100%;
+  /* margin-left:10px; */
+  padding:0px;
+  padding-lefT:12px;
+  margin-right:0px;
+}
+
+.alert-danger-dynamic label
+{
+  font-size:13px;
+  color: #cc0000;
+  background-repeat:no-repeat;
+  background-position:left center;
+  background-image: url('../img/Layouts$FieldLevelError.png');
+  background-color:transparent;
+  width:100%;
+  /* margin-left:10px; */
+  padding:0px;
+  padding-lefT:12px;
+}
+.messageWidth100
+{
+	width:100px;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline {
+  color: #000;
+  
+}
+
+.has-error .form-control {
+  border: 1px solid #cc0000; 
+  background-color:#ffefef;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-error .form-control:focus {
+  border: 1px solid #cc0000; 
+  background-color:#ffefef;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+		  
+}
+.pageBrake
+{
+	width: 100%;
+    height: 20px;
+    background-color: #dddddd;
+	margin-top:20px;
+
+}
+.viewTypeContainer label
+{
+	float:left;
+	margin-right:10px;
+}
+.viewTypeDropdown
+{
+	float:left;
+	width:165px;
+}
+
+ /*Validation Messages */
+/*.validationError .form-control
+{
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+} */
+div [cssselectorhelper=false] > input
+{
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+}
+
+div [cssselectorhelper=false] input
+{
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+}
+
+div[cssselectorhelper=false] > select
+{
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+}
+
+div[cssselectorhelper=false] > div > select
+{
+	/* Used for reference selector dropdowns*/
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+}
+div[cssselectorhelper=false] > div > div > input
+{
+	/* Used for reference selector dropdowns*/
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+}
+div[cssselectorhelper=false]  > textarea
+{
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+}
+div[cssselectorhelper=false]  > div > span > span > span
+{
+	border:1px solid #cc0000 !important;
+	background-color:#ffefef !important;
+}
+
+/* li div[cssselectorhelper=true]>label
+{ 
+	background-color:#777777;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:600;
+} */
+.mx-page
+{
+	background-color: #ddd;
+	min-height: 100%;
+}
+.AdditionalApplicantContainer .mx-link
+{
+	padding-left:0px;
+	padding-top:0px;
+}
+.additionalApplicantContainer .mx-listview
+{
+	padding-bottom:0px;
+}
+.mx-link, .mx-link a, .nav a
+{
+	color: #0072bc;
+	outline:0;
+
+}
+.mx-link a:hover,.mx-link:focus
+{
+	color:#23527c;
+	text-decoration:underline;
+}
+.ProjectHeader
+{
+	Width: 982px;
+	height: 66px;
+	margin: auto;
+}
+
+.ProjectHeader img
+{
+	height: 66px;
+	width: 238px;
+	text-align:left;
+}
+.inner{
+	background-color: #f0f0f0;
+
+}
+.userNameDisplay label
+{
+	margin-right:0px;
+	padding-right:0px;
+}
+.headerContainer .HeadingSubTitle, .headerContainer .HeadingSubTitle label
+{
+	font-size:18px;
+	color:#888888;
+	padding-top:2px;
+	
+}
+
+.HeadingTitle, .HeadingTitle label
+{
+	font-size:22px;
+	font-weight:300;
+	color:#333333;
+	letter-spacing:1px;
+	/* margin-left: 10px;
+	margin-top: 10px; */
+	width: 100%;
+	padding:0px;
+	margin:0px;
+}
+/* .sectionTitle
+{
+	font-size:22px;
+	font-weight:300;
+	color:#333333;
+	letter-spacing:1px;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left:0px;
+	border-bottom: solid 1px #f6f6f6;
+} */
+.inputFieldMargin
+{
+		padding:0px;
+		margin:0px;
+		/*margin-left:10px;*/
+}
+.inputFieldMargin label
+{
+	margin:0px;
+	padding:0px;
+}
+.inputFieldLabel
+{
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+.floatLeft
+{
+	float:left;
+}
+.inputFieldContainer
+{
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	overflow:hidden;
+}
+
+.inputRightMargin20
+{
+	margin-right:20px;
+}
+
+.containerFloatLeft
+{
+	float:left;
+}
+
+/*
+
+.workerCompClass .HeadingTitle
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left:0px;
+	border-bottom: solid 1px #f6f6f6;
+}
+.workerCompOwnerOfficer .HeadingTitle
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left:0px;
+	border-bottom: solid 1px #f6f6f6;
+}
+
+.PageMargins {
+	padding: 20px 0 0 20px;
+	background: #ddd;
+}
+
+.topWhiteBar
+{
+	background: #fff;
+	height:30px;
+	float:left;
+	width:100%;
+
+}
+
+/* structure changes */
+.mx-layoutcontainer-wrapper
+{
+	padding: 0;
+}
+.mx-layoutcontainer .mx-placeholder .mx-placeholder
+{
+	background: #fff;
+	margin: 0 0px 18px 0;
+	padding: 20px 24px;
+}
+.mx-page .fullContainer .mx-placeholder
+{
+	background: none;
+	margin-right:0px;
+	padding-right: 0px;
+	margin-right:24px;
+}
+.mx-page .fullContainerBilling
+{
+	background-color:white;
+}
+.mx-page .fullContainerBilling .mx-placeholder
+{
+	background: none;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-right: 24px;
+    margin-left: 0px;
+    padding: 0px;
+    width: 980px;
+}
+
+.mx-page .fullContainer
+{
+	background: #fff;
+	width: 982px;
+}
+
+.mx-page .logoButton, .mx-page .logoButton:hover, .mx-page .logoButton:active, .mx-page .logoButton:focus
+{
+	background-color: none;
+	width: 300px;
+	height: 66px; 
+	/* margin: 12px 24px 12px 0px; */
+	padding:0px;
+	background: url(images/Logos-ERIE-AE.png) no-repeat top left;
+	background-size: contain;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	outline:0;
+}
+.masterHeader .mx-placeholder .mx-placeholder
+{
+	background-color:#f0f0f0;
+}
+.customerPage .leftColumnContainer 
+{
+	padding-top:20px;
+}
+
+.mx-page .agentLoggedIn
+{
+	background-color: none;
+	width: 300px;
+	height: 66px; 
+	/* margin: 12px 0px 12px 12px; */
+	padding:0px;
+	background: url(images/AgentLoggedIn.png) no-repeat top left;
+	background-size: contain;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	float:right;
+}
+.activenavigation
+{
+	background: #ddd;
+	border:1px solid red;
+}
+/* buttons */
+
+
+.btn, .btn:hover, .btn:active, .btn:focus
+{
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration:none;
+	padding:12px 13px;
+	color: #000;
+	box-shadow: none;
+	border-radius: 0;
+	background-color: #f0f0f0;
+	outline:0;
+	
+}
+
+.btn.disabled, .btn.disabled:hover, .btn.disabled:active, .btn.disabled:focus
+{
+	background-color: #e5e5e5;
+	border:1px solid #e5e5e5;
+	color: #000;
+}
+
+.primaryAction
+{
+	background-color:#58a450;
+	border:1px solid #58a450;
+	color:#fff;	
+}
+
+.primaryAction:hover, .primaryAction:focus
+{
+	background-color:#2c914e;
+	border:1px solid #2c914e;
+	color:#fff;	
+}
+
+.primaryAction:active
+{
+	background-color:#2a8849;
+	border:1px solid #2a8849;
+	color:#fff;
+}
+
+.primaryActionBlue,.primaryActionBlue:visited
+{
+	background-color: #0072bc; 
+	border: 1px solid #0072bc; 
+	color: #ffffff;
+	margin-top:20px;
+}
+
+.primaryActionBlue:hover, .primaryActionBlue:focus
+{
+	background-color: #005c93; 
+	border: 1px solid #005c93; 
+	color: #ffffff;
+}
+
+.primaryActionBlue:active 
+{
+	background-color: #005384; 
+	border: 1px solid #005384; 
+	color: #ffffff;
+}
+
+.primaryActionRed,.primaryActionRed:visited
+{
+	background-color: #cc3333; 
+	border: 1px solid #cc3333; 
+	color: #ffffff;
+	
+}
+
+.primaryActionRed:hover, .primaryActionRed:focus
+{
+	background-color: #cc0000; 
+	border: 1px solid #cc0000; 
+	color: #ffffff;
+}
+
+.primaryActionRed:active 
+{
+	background-color: #990000; 
+	border: 1px solid #990000; 
+	color: #ffffff;
+}
+
+
+.secondaryAction
+{
+	background-color:#f3f3f3;
+	border:1px solid #f3f3f3;
+	color:#333;
+  
+}
+
+.secondaryAction:hover, .secondaryAction:focus
+{
+	background-color:#e5e5e5;
+	border:1px solid #e5e5e5;
+	color:#333;
+	
+}
+
+.secondaryAction:active
+{
+	background-color:#d5d5d5;
+	border:1px solid #d5d5d5;
+	color:#333;
+	
+}
+
+
+/*.disabled
+{
+	background-color: #e5e5e5;
+	border:1px solid #e5e5e5;
+	color: #888888;
+}
+*/
+
+
+.warningButton
+{
+	background-color:#cc3333;
+	border:1px solid #cc3333;
+}
+
+.warningButton:hover, .warningButton:focus
+{
+	background-color:#cc0000;
+	border:1px solid #cc0000;
+}
+
+.warningButton:active
+{
+	background-color:#990000;
+	border:1px solid #990000;
+}
+
+.DeleteButton
+{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding:0px;
+}
+.DeleteButton:hover
+{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding:0px;
+}
+
+.firstName
+{
+  	float: left;
+  	width: 115px;
+}
+
+.middleInitial
+{
+  	float: left;
+  	width: 25px;
+  	margin:0px 4px;
+	margin-left: 4px;
+}
+
+.lastName
+{
+  	float: left;
+  	width: 139px;
+	margin-left: 0px;
+}
+
+.duties{
+	width: 375px;
+}
+.taxId
+{
+	float:left;
+	width:97px;
+	margin-right:5px;
+}
+.AdditionalApplicantContainer
+{
+	position:relative;
+}
+
+.addSpouse
+{
+	/*margin-top: 10px;*/
+}
+
+.addSpouseCheck
+{
+	display:inline;
+	margin-left: 10px;
+}
+
+.additionalApplicantListview ul li
+{
+	background-color: transparent;
+	margin-bottom:5px;
+	border: 0px;
+	border-bottom: 1px solid;
+}
+
+.nameType
+{
+	width:150px;
+}
+
+.RequiredField:after {
+  content: "*";
+  color: #e32;
+  font-size: 15px;
+  margin-bottom:0px;
+}
+
+.annualPayrollRequiredField:after {
+  content: "";
+  color: #e32;
+  font-size: 15px;
+}
+
+.subLabel
+{
+	color:#888;
+	font-size:12px;
+}
+.otherPoliciesContainer
+{
+	overflow:hidden;
+}
+.productContainer
+{
+	padding-left:0px;
+}
+.productCheckmark
+{
+	float:left;
+	width:52px;
+	height:52px;
+	background-color:#006dae;
+}
+.otherPolicies 
+{
+	display: inline-block;
+	padding-left: 16px;
+	text-indent: -15px;
+	padding-right:10px;
+}
+
+.checkboxInline
+{
+	display: inline-block;
+	padding-left: 16px;
+	text-indent: -15px;
+	padding-right:5px;
+}
+
+.otherPolicies input
+{
+	margin: 0px;
+	width: 13px;
+	height: 13px;
+	padding: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: -2px;
+}
+
+.checkboxTextboxLabel label
+{
+    padding: 1px;
+	padding-left:0px;
+    position: relative;
+    top: -1px;
+}
+
+.checkboxInline input
+{
+	margin: 0px;
+	width: 13px;
+	height: 13px;
+	padding: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: -2px;
+}
+
+/*
+.checkboxInline
+{
+	/*display: inline-block !important;
+	padding-left: 20px;
+	text-indent: -15px;
+	margin-right:0px;
+}
+
+.checkboxInline>div
+{
+    float: left;
+}
+
+.checkboxInline input
+{
+	margin: 0px;
+	width: 13px;
+	height: 13px;
+	padding: 0px;
+	vertical-align: bottom;
+	position: relative;
+	top: -2px;
+} */
+
+.textBox input
+{
+	height:26px;
+}
+input
+{
+	height:26px;
+}
+.primaryOpsPoliciesContainer
+{
+	margin-bottom:15px;
+}
+.otherPoliciesLabel
+{
+	font-size:20px;
+	font-weight:300;
+	color:#333333;
+	letter-spacing:1px;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	margin-right:2px;
+
+}
+.helptext
+{
+	font-size:20px !important;
+	font-weight:300 !important;
+	color:#888888 !important;
+	letter-spacing:1px;
+	float:left !important;
+	padding-left:0px !important;
+}
+.inputListView .mx-listview-list .mx-listview-item
+{
+	padding-left:0px;
+}
+.phone
+{
+	width: 120px;
+
+}
+
+.role
+{
+	width: 288px;
+
+}
+.preferredEmail
+{
+	width:232px;
+	float:left;
+	margin-right:5px;
+}
+.mailingAddressRadio
+{
+
+}
+.mailingAddressRadio label
+{
+	padding-top: 10px;
+	margin-right: 0px;
+	width: 41px;
+}
+
+.bureauMeritRatingExpMod
+{
+	height:18px;
+	margin-bottom:2px;
+}
+
+.bureauMeritRatingContainer
+{
+	float:left;
+}
+
+.bureauORLabel
+{
+	float:left;
+	margin:0px;
+    padding:0px 7px 0px 5px;
+}
+
+.bureauExpModContainer
+{
+	float:left;
+}
+
+
+.bureauMeritRatingExpMod label
+{
+	padding: 0px 0px 0px 0px;
+    margin-right: 0px;
+    width: 101px;
+}
+
+.bureauMeritRatingExpMod label span
+{
+	margin-right: 0px;
+	padding-left:20px;
+	padding-bottom:5px;
+	width: 140px;
+}
+
+.bureauMeritRatingExpMod label input
+{
+	margin: -2px 3px 0px 0px !important;
+	
+}
+
+.mailingAddressRadio input[type="radio"],.bureauMeritRatingExpMod input[type="radio"],.questionRadioButton input[type="radio"],.travelQuestionRadioButton input[type="radio"]
+{
+	margin-top:-1px;
+}
+
+.email
+{
+	width:300px;
+	margin-left:10px;
+}
+
+/* Customer Page */
+.customerAddressLine1
+{
+	margin-bottom:4px;
+	width:287px;
+
+}
+.customerAddressLine2
+{
+	margin-bottom:4px;
+	width:287px;
+	
+}
+
+.entityName, .entityType, .nameType, .businessName, .customerName, .secondaryEntityName
+{
+	width:287px;
+}
+
+.entityName
+{
+	margin-bottom:4px;
+}
+
+.nonProfitToggle, .nonProfitToggle:active,.nonProfitToggle:focus
+{
+	float: left;
+    width: 20px;
+    vertical-align: middle;
+    padding-top: 5px;
+	outline:none;
+	
+}
+.nonProfitContainer
+{
+    float: left;
+    width: 145px;
+    margin-left: 10px;
+    padding-top: 16px;
+    height: 45px;
+}
+.nonProfitToggleLabel
+{
+	vertical-align:middle;
+	float:left;
+	padding-left:6px;
+	margin-top:5px;
+}
+
+.nonProfitRecordLock
+{
+	float:left;
+}
+
+.delteToggle:focus
+{
+	outline:none;
+}
+
+.IndividualListview
+{
+	padding:0px;
+}
+
+.IndividualListview ul li
+{
+	padding:0px;
+}
+
+.customerZipCode
+{
+  	float: left;
+  	width: 80px;
+  	margin-right: 4px;
+}
+
+.customerCity
+{
+  float: left;
+  width: 142px;
+  margin-right: 4px;
+}
+
+.customerState
+{
+  float: left;
+  width: 57px;
+}
+
+.website
+{	
+  width:287px;
+}
+
+.inceptionYear
+{
+	width:50px;
+}
+
+.federalID
+{
+	width: 88px;
+	float:left;
+}
+
+.contactContainer .removeContact 
+{
+	float: right;
+	color: #cc0000;
+	padding-right:0px;
+}	
+.contactContainer 
+{
+	width:100%;
+	border-top:1px solid #dedede;
+	padding-top: 15px;
+}
+.contactContainer .removeContact .mx-link a, .contactContainer .removeContact a
+{
+	color: #cc0000;
+}
+
+.contactPhoneType
+{
+	float:left;
+	width:30%;
+	margin-right:5px;
+}
+
+/* Individual Name Classes - BEGIN */
+.generation
+{
+	width:70px;
+	margin-left: 10px;
+}
+
+.ssn
+{
+	width:120px;
+
+}
+
+.prefix
+{
+	width:101px;
+}
+
+.suffix
+{
+	width:70px;
+	float: left;
+	margin-left: 4px;
+}
+/* Individual Name Classes - END */
+}
+
+/* NavigationControl */
+.navigation
+{
+	font-size: 14px;
+	font-weight: 400;
+	overflow:hidden;
+}
+
+.navigation .btn, label
+{
+	margin-right:15px;
+	padding: 6px;
+	color: #000;
+	padding-bottom:0px;
+}
+
+.navigation .labelButton
+{
+	color: #c0c0c0;
+  	background-color: #e7e7e7;
+  	border-color: #dadada;
+  	display: inline-block;  	
+  	margin-bottom: 0;
+  	font-weight: normal;
+  	line-height: 1.428571429;
+  	text-align: center;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	background-image: none;
+  	border: 1px solid transparent;
+  	border-radius: 0;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	-o-user-select: none;
+  	user-select: none;
+}
+
+/* Start a Quote */
+.startQuote
+{
+	font-size: 14px;
+	font-weight: 400;
+	overflow:hidden;
+}
+
+.startQuoteContainer
+{
+	margin-top:20px;
+}
+
+.startQuote .mx-dataview-content, .dashboardDataContainer .mx-dataview-content
+{
+	overflow: hidden;
+}
+
+.startQuote label
+{
+	/*margin-top: 20px;
+	margin-bottom:  none;
+	padding: 0px;*/
+	/* color: Gray; */
+}
+
+.startQuote .dropdown
+{
+	padding-right:10px;
+	width:80%;
+}
+
+.startQuote .entityName
+{
+	margin-left:0;
+	padding-right:10px;
+	width:87%;
+}
+
+.startQuote .SecondEntityName
+{
+	margin-left:0;
+	padding-right:10px;
+	width:87%;
+	padding-top:0px;
+}
+
+.startQuote .infoTable
+{
+	margin-left: 10px;
+	width: 98%;
+	/* border-top: 1px solid #f0f0f0; */
+}
+
+.startQuote .infoTable td, tr
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.startQuote .addressTable
+{
+	margin:0px;
+	margin-top:8px;
+}
+
+.startQuote .nameTable
+{
+	margin:0px;
+	margin-top:8px;
+}
+
+.startQuote .addressline
+{
+	margin-bottom:4px;
+	width:282px;
+}
+
+.startQuote .zip
+{
+	padding-right:4px;
+	width:50px;
+	float:left;
+}
+
+.startQuote .city
+{
+	padding-right:4px;
+	width:164px;
+	float:left;
+}
+
+.startQuote .state
+{
+	width:68px;
+	float:left;
+}
+
+.startQuote .first
+{
+	padding-right:4px;
+	float:left;
+	width:90px;
+}
+
+.startQuote .middle
+{
+	padding-right:4px;
+	float:left;
+	width:30px;
+}
+
+.startQuote .last
+{
+	float:left;
+	width:138px;
+}
+
+.startQuote tr, td , th
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.startQuote .labelButton, .workerCompClass .labelButton
+{
+	color: #c0c0c0;
+  	background-color: #e7e7e7;
+  	border-color: #dadada;
+  	display: inline-block;
+  	padding: 12px 13px;
+  	margin-bottom: 0;
+  	font-weight: normal;
+  	line-height: 1.428571429;
+  	text-align: center;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	background-image: none;
+  	border: 1px solid transparent;
+  	border-radius: 0;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	-o-user-select: none;
+  	user-select: none;
+	float: right;
+	margin-right:0px;
+	margin-top:20px;
+	cursor:no-drop;
+}
+
+.startQuote .primaryAction
+{
+	float: right;
+	/* padding: 5px 40px; */
+	margin-top: 20px;
+}
+
+.dashboardViewContainer .mx-placeholder
+{
+	padding:0px !important;
+}
+.dashboardViewContainer .dashboardCurrentlyViewing
+{
+	padding:0px;
+}
+.dashboardCurrentlyViewingDisplay
+{
+	padding: 20px 24px 24px 0px;
+    width: 982px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.startQuoteContent,.applicationsViewContent,.quotesViewContent
+{
+	padding:20px 24px;
+}
+.startQuotePlaceholderContainer .mx-placeholder
+{
+	padding:0px !important;
+	margin-bottom:0px;
+}
+.paggingContainer
+{
+	padding: 0px 24px 20px 24px;
+}
+.headerContainer
+{
+	border-bottom: 1px solid #dedede;
+	margin-bottom:20px;
+	/* padding-bottom:10px;
+	 */
+}
+.workflowHeaderContainer
+{
+	border-bottom:1px solid #dedede;
+}
+
+.workflowHeader
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 982px;
+	margin-bottom:0px;
+	height:50px;
+	
+}
+.headerContainer .workflowHeaderContainer .mxdataview-content .headingTitle label
+{
+	font-size:26px;
+	padding-top:4px;
+}
+.headerContainerRight
+{
+	border-bottom: 1px solid #f0f0f0;
+	margin-top:7px;
+	padding-left: 0px;
+	margin-left: -12px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+
+.customerPage .mx-dataview-content
+{
+	overflow:hidden;
+	width:100%;
+}
+
+
+.ownerOfficer .mx-dataview-content
+{
+		overflow-x: hidden;
+		overflow-y: auto;
+}
+
+/*.startQuote .form-control, .customerPage .form-control, .ownerOfficer .form-control, .wCProductContainer .form-control,
+.employees .form-control, .topRightContainer .form-control, .workerCompClass .form-control, .claimModal .form-control,
+.coveragesPage .form-control,.namedInsuredContainer .form-control, .namedInsuredContainerModal .form-control,.locationsContentContainer .form-control,
+.pageFormControl .form-control, .primaryOperations .dijit, .classFitContainer .form-control*/
+.form-control
+{
+	border: 1px solid #999;
+	border-radius: 0px;
+	height: 26px;
+	padding: 1px 5px 1px 5px;
+}
+
+.hasClaimsContainer
+{
+	width:100%;
+	margin-bottom:15px;
+}
+.claimModal .claimDescriptionContainer .claimDescription textarea
+{
+	border: 1px solid #999;
+	border-radius: 0px;
+	height: 78px;
+	padding: 1px 5px 1px 5px;
+}
+.claimModal .status .radio-inline span,.claimsContainer .hasClaims .radio-inline span,.ownerOfficer .includeExclude .radio-inline span, .ownerOfficer .moreThanTwoOfficers  .radio-inline span
+{
+	padding-top:5px;
+	padding-right:0px;
+	margin-right:0px;
+	width:50px;
+}
+.claimsContainer .hasClaims .radio-inline span
+{
+	padding-top:5px;
+	padding-right:0px;
+	margin-right:0px;
+	width:25px;
+}
+.claimModal .status .radio-inline
+{
+	margin-right:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.ownerOfficer .includeExclude .radio-inline,.ownerOfficer .moreThanTwoOfficers  .radio-inline
+{
+	margin-right:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.ownerOfficerIncludeExclude{
+	display: inline-block;
+}
+
+.reports .hasClaims .radio-inline
+{
+	margin-right:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.claimsContainer .claimsHistoryTitleContainer
+{
+	width:100%;
+	padding-left:0px;
+	margin-bottom:10px;
+	border-bottom:1px solid #dedede;
+}
+.claimsContainer .gridHeader .claimDate
+{
+	float:left;
+	width:91px;
+	margin-right:0px;
+	padding-left: 12px;
+	
+}
+.claimsContainer .gridHeader .claimDescription
+{
+	float:left;
+	width:330px;
+	margin-right:0px;
+	padding-left:7px;
+}
+.claimsContainer .gridHeader .claimType
+{
+	float:left;
+	width:200px;
+	margin-right:0px;
+	font-size: 16px;
+	padding-left:6px;
+}
+.claimsContainer .gridHeader .claimAmountPaid
+{
+	float:left;
+	width:99px;
+	margin-right:0px;
+	text-align:right;
+	line-height: 14px;
+	
+}
+.claimsContainer .gridHeader.claimTotalReserved
+{
+	float:left;width:120px;margin-right:0px;text-align:right;font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  line-height: 14px;
+}
+.claimsContainer .gridHeader.claimStatus
+{
+	float:left;
+	width:60px;
+	margin-right:0px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	line-height: 14px;
+  	padding-left:7px;
+}
+.claimsContainer .claimsHistoryContainer .headerContainer .claimsHistoryTitle 
+{
+	
+	float:left;
+	width:145px;
+
+}
+.claimsContainer .claimsHistoryContainer .headerContainer .claimsHistorySubTitle 
+{
+	float: left;
+    color: #888;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 3px;
+    padding-left: 0px;
+
+}
+.claimsContainer .claimsHistoryContainer .claimsHistory .redXButton .claimsDeleteButton
+{
+	float:left;
+	
+}
+
+.claimsRedXRecordLock
+{
+	float:left;
+	width:30px;
+}
+
+.deleteAllClaimsConfirmation .modal-dialog .mx-window
+{
+	width:200px;
+}
+
+.deleteAllClaimsDataview
+{
+	width:225px;
+}
+
+.wCProductContainer
+{
+	width:301px;
+}
+
+.topRightContainer .leftColumn .bureauNameList
+{
+	padding:0px;
+}
+
+.bureauContainer
+{
+	margin:0px;
+	text-align:center;
+	width:auto;
+	float:left;
+}
+
+.bureauContainerNotSelected
+{
+	margin:0px;
+	text-align:center;
+	width:60px;
+}
+
+.bureauInfoIcon
+{
+	float: left;
+    position: relative;
+	top: 7px;
+    left: 5px;
+	margin-right: 5px;
+}
+
+.bureauNameList
+{
+	background:#dddddd;
+	padding:0px;
+	height: 36px;
+}
+
+.bureauNameList ul 
+{
+	display: inline-block;
+}
+
+.bureauNameList ul li
+{
+	float:left;
+	padding: 0px 4px 0px 0px;
+	width:75px;
+	width:auto;
+}
+
+.bureauLinkButton
+{
+	padding:0px;
+	margin-top:10px;
+}
+
+.bureauLink{
+		display: inline;
+}
+
+.bureauMeritRating
+{
+	width:87px;
+}
+
+.bureauMeritRatingDisabledContainer
+{
+	border: 1px solid #ddd;
+	height: 26px;
+	width: 87px;
+	background-color: #f3f3f3;
+}
+
+.bureauExpModDisabledContainer
+{
+	border: 1px solid #ddd;	
+	height: 26px;
+	width: 100px;
+	background-color: #f3f3f3;
+}
+
+.ExperienceMod input
+{
+	text-align: right;
+}
+
+.ExperienceMod .alert.alert-danger.mx-validation-message:after {
+    content: "; format as 0.000.";
+}
+
+/*.topRightContainer .bureauNameList .mx-listview-list .mx-listview-item
+{
+
+	padding:0px;
+	
+}*/
+
+.btn_WorkersCompProduct_BureauName
+{
+	height:26px;
+}
+.buttonBar
+{
+max-width:982px;
+margin:auto;
+margin-top: 20px;
+margin-bottom:50px;
+height: auto;
+background: none;
+padding:10px;
+}
+
+.reports.buttonBar 
+{
+  height: 67px;
+  padding: 10px;
+}
+.buttonBarProduct
+{
+	max-width:982px;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom:50px;
+	background: none;
+	height:80px;
+}
+
+.uwQuestionsButtonBar
+{
+	height:80px; 
+	padding:19px 20px 12px;
+}
+
+.wcButtonBar div div div 
+{
+	margin-right:0px !important;
+}
+
+.mx-dataview-controls
+{
+	background: none;
+	border:none;
+	padding:10px;
+}
+.claimModal .mx-dataview-controls
+{
+	height:84px;
+}
+
+.pageButtonsContainer .mx-placeholder 
+{  
+padding:0px !important;
+}
+
+.buttonBar div.mx-dataview-content
+{
+	/*display:none;*/
+}
+
+.buttonBar div
+{
+	/*height: 67px;*/
+}
+
+.continueButton,.previousButton
+{
+	float:right;
+	margin-left:5px;
+}
+.saveExit
+{
+	float:left;
+}
+.modal-dialog
+{
+	box-shadow: 0px 8px 42px -7px #9c9c9c;
+	width:auto;
+}
+.modal-dialog .modal-header, .modal-dialog .modal-footer, .modal-dialog .modal-content
+{
+	border-radius: 0;
+	border: none;
+	background-color: white;
+}
+.modal-dialog .modal-header
+{
+	padding:20px 20px 17px 20px;
+	border-bottom: 1px solid #a7a7a7;
+}
+.modal-dialog .modal-header h4
+{
+	 margin: 0;
+	/*padding: 0 0 12px; 
+	border-bottom: 1px solid #a7a7a7; */
+	color:#333333;
+	font-size: 16px;
+	font-weight: 600;
+}
+.modal-dialog .modal-content
+{
+	margin: 2px;
+}
+.mx-window-view .mx-window-body > .mx-placeholder > .mx-dataview > .mx-dataview-content
+{
+	padding:20px;
+	
+}
+
+.mx-page .mx-grid {
+	border: none;
+}
+.mx-grid-pagingbar .btn {
+	/*background: none;
+	border-radius: 0;
+	border: none;
+	padding: 0.2em;
+	font-size: 12px;*/
+}
+.mx-datagrid .mx-datagrid-body-table, .mx-datagrid .mx-datagrid-head-table {
+	border: none;
+}
+.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #cacaca;
+	padding: 0.5em 1.2em;
+	min-height: 0;
+	height: auto;
+}
+.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr td * {
+	min-height: 0;
+}
+
+.mx-datagrid .mx-datagrid-head-table th
+{
+	background: none;
+	border: none;
+	border-bottom: 2px solid #58a450;
+}
+.mx-datagrid .mx-datagrid-head-table th:nth-child(8n+5)
+{
+	border-color: #26A4CD;
+}
+.mx-datagrid .mx-datagrid-head-table th:nth-child(8n+3)
+{
+	border-color: #B4921C;
+}
+.mx-datagrid .mx-datagrid-head-table th:nth-child(8n+4)
+{
+	border-color: #A1BF36;
+}
+.mx-datagrid .mx-datagrid-head-table th:nth-child(8n+2)
+{
+	border-color: #D98731;
+}
+.mx-datagrid .mx-datagrid-head-table th:nth-child(8n+6)
+{
+	border-color: #BB4A27;
+}
+.mx-datagrid .mx-datagrid-head-table th:nth-child(8n+7)
+{
+	border-color: #404C7B;
+}
+.mx-datagrid .mx-datagrid-head-table th:nth-child(8n+8)
+{
+	border-color: #913787;
+}
+.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected td, .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
+	background: #e6dcd2;
+}
+.mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr:hover td
+{
+	color: #5B4E46;
+	/*text-decoration: underline;*/
+}
+.mx-datagrid div.mx-grid-content
+{
+	overflow-x: hidden;
+}
+.mx-datagrid .mx-link {
+	padding: 0;
+}
+.mx-grid .mx-grid-pagingbar .btn span
+{
+	color: #5B4E46;
+	font-size: 0.9em;
+}
+
+.mx-groupbox
+{
+	border: 1px solid #a7a7a7;
+}
+.mx-groupbox .mx-groupbox-header, .mx-groupbox .mx-groupbox-body
+{
+	border: none;
+	border-radius: 0;
+	background: none;
+}
+.mx-groupbox.collapsed .mx-groupbox-header
+{
+	border-radius: 0;
+	border-bottom: none;
+}
+.mx-groupbox .mx-groupbox-header
+{
+	color: #555;
+	font-weight: normal;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0 12px;
+	border-bottom: 1px solid #a7a7a7;
+}
+.mx-groupbox .mx-groupbox-body
+{
+	padding: 12px 12px 22px;
+}
+
+.mx-list
+{
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	margin:0;
+}
+.mx-list li
+{
+	border: none;
+	box-shadow: none;
+	background: none;
+	border-radius: 0;
+}
+.mx-list > li:last-child, .mx-list > li:first-child
+{
+	border: none;
+	border-radius: 0;
+}
+.mx-list > li:hover
+{
+	background: #0084ec;
+}
+.nav-tabs
+{
+	border-top: 1px solid #a7a7a7;
+	border-bottom: 1px solid #a7a7a7;
+}
+.nav-tabs li a
+{
+	border: none;
+	border-radius: 0;
+	background: none;
+	padding: 8px 18px;
+	text-decoration: underline;
+}
+.nav-tabs li
+{
+	margin-bottom: 0;
+}
+.nav-tabs li.active a, .nav-tabs li.active:hover a
+{
+	border: none;
+	border-radius: 0;
+	bottom: 0;
+	text-decoration: none;
+}
+.footerContainer
+{
+	padding: 0 12px 12px;
+	text-align: right;
+	color: #fff;
+	background-color: #ddd;
+}
+
+.footerContainerMain
+{
+	background-color: #ddd;
+}
+.mx-listview li, .mx-listview li:nth-child(odd)
+{
+	background: none;
+}
+.mx-listview li:hover
+{
+	background: none;
+}
+/* PRODUCT SELECTION */
+.effectiveDateErrorMessage
+{
+	min-height:1px;
+	float:left;
+	width:45%;
+}
+.expirationDateErrorMessage
+{
+	min-height:1px;
+	float:right;
+	width:47%;
+}
+.productDatesInputFields
+{
+	width:100%;
+}
+.ProductListTable
+{
+	border: 1px solid black !important;
+}
+
+.ProductListView
+{
+	background-color: white !important;
+	padding-top:0px;
+	padding-left:0px;
+}
+
+.ProductListView .form-control
+{
+	/* margin-left: 7px; */
+	width: 100%;
+	border-radius: 0px;
+}
+
+.productListEffDate
+{
+	width:125px; 
+	margin:0;
+}
+
+.productListExpDate
+{
+	width:125px; 
+	margin:0;
+}
+/*************************************/
+.anvyInfoContainer
+{
+	position: inherit;
+	/* z-index:1000; */
+}
+.anvyInfoContainer .mx-dataview
+{
+	position:inherit !important;
+}
+.anvyInfo .dropdown-menu 
+{
+	padding: 5px;
+	background: #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: none;
+    position: relative;
+	top: 10px;
+    left: -25px;
+    z-index: 4;
+}
+.anvyInfo .dropdown-menu::after,.anvyInfo .dropdown-menu::before
+{
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.anvyInfo .dropdown-menu::after
+{
+	border-color: rgba(245, 245, 245, 0);
+	border-bottom-color: #ffffff;
+	border-width: 12px;
+	margin-left: -13px;
+}
+.anvyInfo .dropdown-menu::before
+{
+	border-color: rgba(213, 213, 213, 0);
+	border-bottom-color: #d5d5d5;
+	border-width: 13px;
+	margin-left: -14px;
+}
+
+.anvyInfo.open
+{
+	position: absolute;
+	/* z-index:1000; */
+}
+.anvyInfo.open button
+{
+	background-image: url('../img/Layouts$question_help.png')!important;
+    background-repeat: no-repeat !important;
+    background-position: left 5px center !important;
+    background-color: white !important;
+    outline: none !important;
+    border: none !important;
+	box-shadow:none !important;
+	position:relative !important;
+}
+.anvyInfo button, .anvyInfo button:Hover, .anvyInfo button:focus, .anvyInfo button:active, .anvyInfo button:visited
+{
+	background-image: url('../img/Layouts$question_help.png');
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-color: white;
+    outline: none;
+    border: none;
+	position:relative !important;
+	top:-25px;
+	right:-110px;
+	
+}
+
+.anvyInfo .printedAnniversaryMessage
+{
+	width:234px;
+	font-size:14px;
+	font-weight:400;
+	color:#333333;
+	margin-right:0px;
+	line-height:15PX;
+}
+.workerscompAnnivRateDate
+{
+	width:140px; 
+	margin:0;
+}
+
+.workerscompAnnivRateDate .btn
+{
+	background-color:transparent;
+	position:relative;	
+	width:3%;
+	left:-32px;
+	border:0;
+	background-image: url('../img/UnitTesting$calendar.png'); 
+	background-repeat:no-repeat;
+	background-repeat:no-repeat;
+	margin-left: 10px;
+    margin-top: 3px;
+
+}
+
+.productListEffDate .btn
+{
+	background-color:transparent;
+	position:absolute;	
+	/*width:17%;*/
+	padding:10px;
+	left:90px;
+	border:0;
+	background-image: url('../img/UnitTesting$calendar.png'); 
+	background-repeat:no-repeat;
+	margin-left: 10px;
+    margin-top: 3px;
+}
+
+.productListExpDate .btn
+{	
+	background-color:transparent;
+	position:absolute;
+	left: 223px;
+	/*width:17%;*/
+	padding:10px;
+	border:0;
+	background-image: url('../img/UnitTesting$calendar.png'); 
+	background-repeat:no-repeat;
+	margin-left: 10px;
+    margin-top: 3px;
+}
+
+.btn span
+{
+	display:none;
+}
+
+.ProductListView li
+{
+display: inline !important;
+list-style-type: none !important;
+float: left !important;
+background-color: white !important;
+border: 0px solid black !important;
+}
+.ProductListView .mx-listview
+{
+	padding:0px;
+}
+.ProductListView .mx-listview-item
+{
+	padding-left:0px;
+	padding-top:0px;
+}
+
+.ProductListImage
+{
+margin: 0px !important;
+padding: 0px !important;
+border-top: 1px solid black !important;
+border-left: 1px solid black !important;
+}
+
+.ProductAddHeader
+{
+background-color: White !important;
+font-size: 25px !important;
+font-weight: 200 !important;
+padding-left: 12px !important;
+}
+
+.ProductAddHeaderTD
+{
+border-bottom: 1px solid gray !important;
+}
+
+.ProductListHeaderWC
+{
+	float:left;
+	font-size: 20px;
+	font-weight: 300;
+	padding-left: 2px;
+	color: #fff;
+	margin-left:5px;
+	vertical-align:middle;
+	height:52px;
+	padding-top:11px;
+}
+
+.ProductListHeaderBCL
+{	
+font-size: 18px;
+font-weight: 200 !important;
+padding-left: 5px !important;
+}
+
+.ProductListHeaderTD
+{
+	background-color: #007CC6 !important;
+	vertical-align: middle !important;
+	border-top: 1px solid black !important;
+	border-right: 1px solid black !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.productListTDLeft
+{
+	margin-left: 5px;
+}
+
+.productListTDRight
+{
+	margin-right: 5px;
+}
+
+.productListTD
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.productListTDBottom
+{
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.AddProductTile
+{
+background-color: white !important;
+vertical-align: middle !important;
+border: 1px solid black !important;
+padding: 80px !important;
+font-size: 16px !important;
+font-weight: 200 !important;
+margin-left: 44px !important;
+color: #000;
+}
+
+.AddProductTile img
+{
+position: relative !important;
+top:-25px !important;
+left: 50px !important;
+}
+
+.RemoveProduct
+{
+font-weight: 200 !important;
+background-color: white !important;
+font-size:13px; !important;
+color: #000;
+}
+.searchBoxContainer
+{
+    border: 1px solid #999;
+    width: 75%;
+    height: 29px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.search .form-control
+{
+	/* background-image: url('../img/Layouts$magnifyGlass.png'); 
+	background-repeat:no-repeat;
+	background-position: right 5px center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 0px;
+	width:45%; */
+	float:left;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 95%;
+    float: left;
+	border:none;
+}
+.searchButton, .searchButton:hover, .searchButton:active,.searchButton:focus,.searchButton:visited
+{
+    margin-top: 0px;
+    background-color: white;
+    padding: 0px;
+    border: none;
+}
+
+
+.quoteGrid .mx-templategrid-content-wrapper
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	text-align:left;
+	padding:0;
+}
+
+.quoteGrid .mx-templategrid-empty:after{
+	content: 'No results found';
+	text-align: center;
+	display: block;
+}
+
+.quoteGrid .quoteAndApp  .mx-templategrid-empty:after{
+	content: none !important;
+}
+.quoteGrid .mx-listview,.quoteGrid .mx-listview-item
+{
+	padding:0px;
+}
+.quoteGrid ul li div {
+    position: static;
+}
+.gridContainer .mx-placeholder
+{
+	padding:0px !important;
+}
+.searchTable
+{
+	border-top: 1px solid #f0f0f0;
+}
+
+.searchContainer
+{
+	overflow:hidden;
+	/* padding-left:5px;
+	padding-right:5px; */
+}
+/* .searchContainer .HeadingTitle
+{
+	margin-left:0px;
+	border-bottom:1px solid #f0f0f0;
+	padding-left:0px;
+} */
+/* .searchContainer .HeadingTitle h3
+{
+	border-bottom: 1px solid #f0f0f0;
+} */
+.searchContainer .mx-grid
+{
+	padding: 0px;
+}
+
+.searchContainer .mx-listview
+{
+	padding: 0px;
+}
+.searchContainer .mx-templategrid-item
+{
+border:none;
+padding:0px;
+}
+
+.searchContainer .mx-listview-item
+{
+border:none;
+padding:0px;
+}
+/* .productContainer
+{
+	border-top: 1px solid #f0f0f0;
+} */
+
+.packageDeleteButton, .packageDeleteButton:hover,.packageDeleteButton:active,.packageDeleteButton:focus
+{
+	padding: 12px 30px;
+	margin-left: 8px;
+	margin-top: 10px;
+}
+.packageDeleteButton:hover
+{
+	padding: 12px 30px;
+	margin-left: 8px;
+	/* margin-top: 10px; */
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration:none;
+	color: #000;
+	box-shadow: none;
+	border-radius: 0;
+	background-color: #f0f0f0;
+}
+input[type=text]::-ms-clear {
+    display: none;
+}
+
+
+.searchBox .form-control
+{
+
+background-image: url('../img/UnitTesting$magnifier_left.png'); 
+background-repeat:no-repeat;
+padding-left:25px;
+background-position: 5px center;
+}
+
+.searchBox{
+
+float:left;
+width:49%;
+}
+
+.filterLabelContainerAppView{
+		display: block;
+}
+
+.statusFilter
+{
+	position: absolute;
+	display:inline-block;
+	width:42%;
+	margin-top: 20px;
+	margin-left:4px;
+	float:right;
+}
+
+.appFilterContainer{
+	position: absolute;
+	display:inline-block;
+	width:42%;
+	margin-left:4px;
+	float:right;
+}
+
+.appFilterContainer .mx-table td, .appFilterContainer .mx-table td label{
+	padding: 0px;
+}
+
+.quotesSortbar
+{
+clear:both;
+width:100%;
+margin-top:10px;
+border:1px solid;
+}
+.quotesSortbar primaryAction customerSort
+{
+width:20%; 
+float:left;
+}
+.quotesSortbar primaryAction secondarySort
+{
+width:16%; 
+float:left;
+}
+.phoneNumber
+{
+float:left; 
+margin-right:5px;
+}
+.phoneType
+{
+float:left;
+}
+
+.quoteAndAppHeader
+{
+background-color: #f6f6f6;
+clear:both;
+width:100%;
+}
+.quoteAndAppHeader .btn
+{
+	border: 0px solid black;
+	background-color:transparent;
+	color: black;
+	font-weight: 600;
+	outline:0;
+}
+.quoteAndAppHeader .customer
+{
+	float:left;
+	text-align:left;
+	width:268px;
+	vertical-align:bottom;
+	padding-left:25px;
+}
+
+.quoteAndAppHeader .name
+{
+	float:left;
+	text-align:left;
+	vertical-align:bottom;
+	padding-left:25px;
+	margin-right: 2px;
+	width: 192px;
+	padding-right: 13px;
+}
+
+.columnHeader{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-weight: 600;
+	margin-right: 0px;
+}
+
+.name span{
+	padding-left: 5px;
+}
+
+.quoteAndAppHeader .product
+{
+	float:left;
+	width:130px;
+	text-align:left;
+	padding-left:8px;
+}
+.quoteAndAppHeader .productApp, div.productApp{
+	width: 105px;
+	text-align:left;
+	padding-left:3px;
+	float:left;
+}
+.productApp label, .submitted label, .numberApp label, .agentApp label{
+	margin-right: 0px;
+	padding-left: 2px;
+}
+
+.quoteAndAppHeader .productApp, .quoteAndAppHeader .numberApp, .quoteAndAppHeader .submitted, .quoteAndAppHeader .agentApp{
+	margin-right: 0px;
+}
+
+.quoteAndAppHeader .submitted, div.submitted{
+	float:left;
+	width: 79px;
+	text-align:left;
+	padding-left:8px;
+}
+
+.quoteAndAppHeader .number
+{
+	float:left;
+	width:112px;
+	text-align:left;
+	padding-left:8px;
+
+}
+
+.quoteAndAppHeader .numberApp, div.numberApp{
+	float:left;
+	width:74px;
+	text-align:left;
+	padding-left:0px;
+}
+
+.quoteAndAppHeader .effectiveDate{
+float:left;
+width:118px;
+text-align:left;
+padding-left:8px;
+
+}
+
+.quoteAndAppHeader .status{
+float:left;
+width:114px;
+text-align:left;
+padding-left:8px;
+
+}
+
+.quoteAndAppHeader .statusApp, div.statusApp{
+float:left;
+width:133px;
+text-align:left;
+padding-left:8px;
+
+}
+
+.statusApp select, .processor input, .underwriter input, .billType input{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.quoteAndAppHeader .processor, div.processor {
+float:left;
+width:77px;
+text-align:left;
+padding-left:8px;
+
+}
+
+.quoteAndAppHeader .billType, div.billType {
+float:left;
+width:90px;
+text-align:left;
+padding-left:8px;
+
+}
+
+.quoteAndAppHeader .underwriter, div.underwriter{
+	float:left;
+	width:88px;
+	text-align:left;
+	padding-left:8px;
+}
+
+.quoteAndAppHeader .premium
+{
+float:left;
+width:111px;
+text-align:right;
+padding-right:38px;
+
+}
+.quoteAndAppHeader .agent
+{
+float:left;
+width:60px;
+text-align:left;
+padding-left:10px;
+
+}
+
+.quoteAndAppHeader .agentApp, div.agentApp
+{
+float:left;
+width:67px;
+padding-left:10px;
+margin-right: 0px;
+}
+
+.quoteAndAppGrid
+{
+border-bottom:solid 1px #dedede;
+clear:both;
+
+}
+.quoteAndAppDeleteAndCustomer
+{
+float:left;
+width:270px;
+clear:both;
+}
+
+.AppCustomer{
+	float:left;
+	width:192px;
+	clear:both;
+	
+}
+
+.quoteAndAppDeleteAndCustomer .delete
+{
+float: left;
+width: 5%;
+margin-right:5px;
+vertical-align:middle;
+padding-top:5px;
+
+}
+
+.AppCustomer .exclamation{
+	float: left;
+	width: 5%;
+	margin-right:2px;
+	margin-left: 5px;
+	vertical-align:middle;
+	padding-top:5px;
+}
+.appData .paperclip
+{
+	width: 20px;
+	float: left;
+	margin-top: 3px;
+}
+.quoteAndApp .paperclip{
+	width: 20px;
+	float: left;
+	margin-top: 3px;
+}
+
+/*.quoteAndAppDeleteAndCustomer .customer a:empty
+{
+	background-image: url('../img/Layouts$arrow.png')!important;
+	border: 1px solid black;
+}
+*/
+
+.quoteAndAppDeleteAndCustomer .customer{
+float:left;
+overflow:hidden;
+text-overflow: ellipsis;
+width: 250px;
+white-space: nowrap;
+min-height:35px;
+}
+
+.AppCustomer .name{
+	float:left;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	width: 170px;
+	white-space: nowrap;
+	min-height:35px;	
+	padding-left: 4px;
+}
+.appData
+{
+	float:left;
+	width:742px;
+}
+.quoteAndApp
+{
+	float: left;
+/*float:right;
+ width:707px; */
+}
+.quoteAndApp .product{
+float:left; 
+width:120px;
+
+}
+
+.quoteAndApp .number{
+float:left;
+width:122px;
+padding-left:10px;
+
+}
+.quoteAndApp .effectiveDate{
+float:left;
+width:120px;
+
+
+}
+.quoteAndApp .status{
+float:left;
+width:85px;
+
+
+}
+.quoteAndApp .premium{
+float:left;
+width:120px;
+text-align:right;
+}
+
+
+.quoteAndApp .agent{
+float:left;
+width:90px;
+text-align:right;
+
+}
+.fullContainer .alert .alert-danger
+{
+font-size: 13px;
+color: #cc0000;
+border:  1px solid #cc0000;
+background-color: #ffefef;
+
+}
+
+/* Add Class Modal - BEGIN */
+.addClassModal
+{
+	width:750px;
+	min-width: 750px;
+}
+
+.addClassModal .modal-body
+{
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.addClassModal .mx-dataview-controls .mx-button
+{
+	margin-bottom:0px;
+}
+
+.floatContainer 
+{
+	float:left;
+}
+.floatElementLeft
+{
+	float:left;
+}
+.addClassTitle
+{
+	font-size:19px;
+	font-weight:300;
+	color:#333333;
+	letter-spacing:1px;
+	/*width: 100%;*/
+	margin-bottom: 5px;
+	padding:0px;
+}
+
+.addClassDetailsGhostTitle
+{
+	font-size:17px;
+	font-weight:300;
+	letter-spacing:1px;
+	/*width: 100%;*/
+	margin-bottom: 5px;
+	padding:0px;
+}
+
+.classState
+{
+	margin-right:15px;
+}
+
+.classOperations
+{
+	width:374px;
+}
+
+.classOperations .form-control option
+{
+	border: 1px solid red;
+}
+
+.topBorder
+{
+	margin-left: 10px;
+	width: 98%;
+	border-top: 1px solid #f0f0f0;
+}
+
+.employeeDetailsContainer
+{
+	margin-top:15px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+.addClassSave
+{
+	float:right;
+}
+
+.addClassSaveContainer
+{
+	/*position:absolute;
+	right:15px;*/
+}
+
+.addClassCancelContainer
+{
+	/*position:absolute;
+	left:15px;*/
+}
+
+.addClassCancel
+{
+	float:left;
+}
+
+.GhostText
+{
+	color:#888;
+}
+
+.floatFieldLeft
+{
+	float:left;
+}
+
+.floatFieldRight
+{
+	float:right;
+}
+
+.redXButton, .redXButton:hover, .redXButton:active, .redXButton:visited, .redXButton:link, .redXButton:focus
+{
+	padding: 2px;
+	background-color: transparent;
+	border: transparent;
+	outline:none;
+	margin-left:5px;
+}
+.plusButton, .plusButton:hover, .plusButton:active, .plusButton:visited, .plusButton:link, .plusButton:focus
+{
+	padding: 2px;
+	background-color: transparent;
+	border: transparent;
+	outline:none;	
+}
+.AdditionalApplicantContainer .preferredContact .contactPhone .mx-listview
+{
+	padding:0px;
+}
+.AdditionalApplicantContainer .preferredContact .contactEmail .mx-listview
+{
+	padding:0px;
+}
+
+.preferredContact
+{
+	width:380px;
+}
+.preferredContactContainer
+{
+	position:relative;
+	left:-18px;
+	width:74%;
+}
+
+.classPayrollAmountFields input
+{
+	text-align:right;
+	margin-bottom:4px;
+	width:142px;
+}
+
+.classPayrollAmountFields label
+{
+	text-align:right;
+	margin-bottom:4px;
+	width:142px !important;
+	margin-right: 16px;
+}
+
+.payrollAmountFields div
+{
+	width:275px;
+}
+
+.classDetailsText label, .classDetailsText ul li
+{
+	font-weight:bold;
+	padding:0px;	
+}
+
+.classDetailsText ul li div
+{
+	text-align:right;	
+}
+
+.classDetailsText
+{
+	padding-left:0px;
+	padding-right:0px;	
+}
+.annuallized
+{
+	float: left;
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-top: 4px;
+    color: #888888;
+}
+.ownerOfficerAnnualPayrollContainer
+{
+	
+}
+.annualPayrollContainer
+{
+	width: 100%;
+	position: relative;
+	clear: left;
+	display:inline-block !important;
+	/* float: right; */
+}
+.annualPayrollContainerAnnual
+{
+   float:right;
+}
+.annualPayrollLabelAnnual
+{
+	float:left;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.annualPayrollLabel
+{
+	position: absolute;
+	right: 0px;
+	margin-top: 0px;
+}
+
+.classCodeModalScrolling
+{
+        overflow-y: auto;
+	overflow-x: hidden;
+	width:inherit;
+	max-height: 270px;
+}
+
+.selectedClassCodesContainer
+{
+	margin-top:25px;
+	max-height:150px;	
+}
+
+.classCodeMaxValueError
+{
+	width:143px;
+	margin-right:25px;
+	padding-left:12px !important; 
+}
+.classCodeAnnualPayrollError
+{
+	width:143px;
+	margin-right:25px;
+}
+.errorMessages label
+{
+	font-weight:normal;
+}
+/* Add Class Modal - END */
+
+
+
+/*Workers Comp Column Layout-START*/
+.workersCompContainer .mx-dataview
+{
+	position:inherit;
+}
+.workersCompContainer .mx-dataview-content
+{
+	overflow:hidden;
+}
+.mainTopContainer
+{
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.workersCompContainer .topLeft .mx-placeholder
+{
+	float:left;
+	margin:0px;
+}
+.mainMiddleContainer
+{
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.mainBottomContainer
+{
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+.topSectionContainer
+{
+	margin-top:10px;
+}
+.workersCompContainer .mx-placeholder .employees
+{
+	padding:0px 0px 20px 0px;
+	margin:0px;
+}
+.workersCompContainer .mx-placeholder .employees .FieldLabel .RequiredField label
+{
+	padding-bottom:0px;
+}
+.workersCompContainer .mx-placeholder .employees .FieldLabel .subLabel label
+{
+	padding-top:0px;
+}
+.workersCompContainer .topRight .mx-placeholder
+{
+	padding:0px;
+	margin:0px;
+}
+.workersCompContainer .mx-placeholder .topRightContainer
+{
+	padding:0px 0px 0px 0px;
+	margin:0px;
+}
+.workersCompContainer .topRightContainer .leftColumn
+{
+	float:left; 
+	margin-right:.5%;
+}
+.workersCompContainer .topRightContainer .middleColumn
+{
+	float:left; 
+	margin-right:.5%;
+	width:100%;
+}
+
+.workersCompContainer .topRightContainer .mergeLeftMiddleColumn{
+	float:left; 
+	margin-left:1.5%;
+	width:47%;
+}
+
+.workersCompContainer .topRightContainer .rightColumn
+{
+	float:left; 
+	width:36%;
+}
+
+.workersCompContainer .topRightContainer .meritOrExpModColumn
+{
+	float:left; 
+	width:100%;
+}
+
+.meritOrExpModColumn .mx-table
+{
+	margin-top:2px;
+}
+
+.meritOrExpModColumn .mx-table td
+{
+	padding-top:0px;
+}
+
+.meritOrExpModColumn .mx-table td label
+{
+	padding:0px;
+	margin:0px;
+}
+
+.workersCompContainer .leftCenter .mx-placeholder
+{
+	margin: 0px 10px 0px 0px;
+}
+.leftCenter .primaryActionBlue
+{
+	margin-left:9px;
+}
+.workersCompContainer .mx-placeholder .workerCompClass
+{
+	padding:0px 0px 20px 0px;
+	margin:0px;
+}
+
+.workersCompContainer .rightCenter .mx-placeholder
+{
+	margin: 0px 0px 0px 0px;
+}
+
+.workersCompContainer .mx-placeholder .workerCompOwnerOfficer
+{
+	padding:0px 0px 20px 0px;
+	margin:0px;
+}
+.workersCompContainer .mainTopContainer .pageLevelErrors .mx-placeholder
+{
+	padding:0px;
+	background-color:#ddd;
+	margin-bottom:0px;
+}
+.classCodesGrid
+{
+	border-bottom:solid 1px #dedede;
+	clear:both;
+}
+
+/*Fluid Columns*/
+.workersCompContainer .topLeft .mx-placeholder, .workersCompContainer .topRight .mx-placeholder,.workersCompContainer .rightCenter .mx-placeholder,.workersCompContainer .leftCenter .mx-placeholder
+{
+	padding-bottom:99999px;
+	margin-bottom:-99999px;
+}
+.workerCompClass .mx-templategrid-item
+{
+	border:none;
+}
+/*--Class Codes Grid--START*/
+
+/*Single vs Multi State Workers Comp Product Page*/
+.singleStateCredits
+{
+	display:table-cell;
+	/*border:1px solid;*/
+	width:300px;
+	padding: 24px;
+	vertical-align: top;
+}
+
+.singleStateSpace
+{
+	display:table-cell;
+	width:10px;
+	background:#dddddd;
+}
+
+.multiStateHorizontalSpace
+{
+	width: 110%;
+	position:relative;
+    left: -24px;
+    height: 10px;
+	background:#dddddd;
+}
+
+.singleStateClassQuestions
+{
+	display:table-cell;
+	padding:24px;
+}
+
+.singleStateClassQuestionsWide
+{
+	padding:24px;
+	width:100%;
+}
+
+.multiStateClassQuestions
+{
+	padding:24px;
+}
+
+.multiStateCredits
+{
+	width:100%;
+	padding:24px;
+	float:left;
+}
+.multiStateClassQuestions
+{
+	width:100%;
+}
+.input100Width
+{
+	width:100px;
+}
+
+
+
+/*Single vs Multi State Workers Comp Product Page*/
+.classCodeStateGrid
+{
+	float:left;
+	width:148px; 
+	color:#0084ec;
+	padding-left:16px;
+}
+.codeDescription label
+{
+	width: 202px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+	float:left;
+	padding:0px;
+	margin-right:19px;
+}
+.claimType label
+{
+	float: left;
+    width: 168px;
+    margin-right: 0px;
+}
+.claimDescription label
+{
+	width: 330px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+	float:left;
+	margin-right:0px;
+}
+.classCodeDescription 
+{
+	padding-top:5px;
+	padding-left:8px;
+	float:left;
+	width:350px;
+}
+
+.classCodeDescription  div ul li
+{
+	padding:0px;
+}
+.classCodeGrid .mx-list .mx-list-striped .mx-listview-list .mx-listview-list
+{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.classCodesGrid .mx-listview-list
+{
+	width:340px;
+}
+.classCodesGrid .mx-listview-list .mx-listview-item
+{
+	padding-top:0px;
+	padding-left:0px;
+}
+.claimsHistory
+{
+	padding:0px;
+}
+.claimsHistory .mx-link
+{
+	/* height:86px; */
+	float:left;
+	width:91px;
+	margin-right:0px;
+}
+.lossRuns
+{
+  line-height: 52px;
+  margin-top: 23px;
+  padding-top: 0px;
+  vertical-align: middle;
+}
+.claimsHistory .mx-listview-list .mx-listview-item
+{
+	padding:0px;
+	overflow:hidden;
+}
+.classCodeDescription .mx-listview
+{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.classCodeGrid .mx-listview-list .mx-listview-item
+{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.classDescriptionGrid .payrollAmountFields label,.classCodeDescription .mx-listview .payrollAmountFields label
+{
+	float:left;
+	text-align:right;
+	width:100px;
+	margin:0px;
+	padding-right:0px;
+	
+}
+.classCodeDescription .mx-listview .payrollAmountFields label::before,.totalClassCodeTotalPayroll label::before
+{
+	content:"$";
+}
+.claimModal .topRightContainer
+{
+	float:right;
+	width:35%;
+}
+.claimModal .topLeftContainer
+{
+	float:left;
+	width:60%;
+}
+.claimModal .claimDate
+{
+	width:31%;
+}
+.claimModal .claimType
+{
+	width:75%;
+}
+/* .claimModal .claimType.mx-validation-message
+{
+	margin:0px;
+	padding:0px;
+}
+.claimModal .claimDate .mx-validation-message:before
+{
+	background-image: url('../img/Layouts$pageLevel_error.png');
+}
+.claimModal .claimDate .mx-validation-message
+{
+	margin:0px;
+	padding:0px;
+} */
+.claimsHistory .mx-listview-list .mx-listview-item .amountPaid
+{
+	float:left;
+	width:99px;
+	margin-right:0px;
+	text-align:right;
+}
+.amountPaid label::before
+{
+	content:"$ ";
+}
+.claimsHistory .mx-listview-list .amountPaid label
+{
+
+	margin-right:0px;
+}
+.claimsHistory .mx-listview-list .claimStatus label
+{
+
+	margin-right:0px;
+}
+.claimsHistory .mx-listview-list .mx-listview-item .totalReserved
+{
+	float:left;
+	width:108px;
+	margin-right:14px;
+	text-align:right;
+}
+.totalReserved label::before
+{
+	content:"$ ";
+}
+.claimsHistory .mx-listview-list .totalReserved label
+{
+
+	margin-right:0px;
+}
+.classCodeStateGrid label
+{
+	color:#0084ec;
+}
+.workerCompClass .classCodeHeaders
+{
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	background-color:#f6f6f6;
+	clear:both;
+	margin-bottom:0px;
+	padding-bottom:5px;
+}
+.workerCompClass .gridHeader .classCodesStateHeader
+{
+/* 	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	float:left;
+	margin-right:5px;*/
+	padding-left:15px; 
+	width:148px;
+}
+.workerCompClass .gridHeader .classCodesDescriptionHeader,.coveragesGrid .gridHeader .classCodesDescriptionHeader
+{
+/* 	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	float:left;
+	margin-right:5px; */
+	padding-left:0px;
+	width:202px;
+}
+.workerCompClass .classCodeHeaders .classCodesPayrollHeader,.classCodesDescriptionHeader .classCodeHeaders .classCodesPayrollHeader
+{
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	float:left;
+	text-align:right;
+	margin-left:-15px;
+	padding-left:30px;
+}
+.workerCompClass .stateClassCodeGrid
+{
+	padding-left:0px;
+}
+
+.stateClassCodeGrid
+{
+	padding:0px;
+	margin-left:0px;
+	padding-left:11px;
+	overflow:hidden;
+	/* border-bottom:1px solid #dedede; */
+}
+
+.classCodesGrid .classDescriptionGrid .mx-listview-item
+{
+	float:left;
+	padding:0px 5px;
+	
+}
+.classDescriptionGrid .mx-grid-content .mx-templategrid-content-wrapper .mx-templategrid-row .mx-templategrid-item .mx-dataview-content
+{
+	height:25px; 
+	
+}
+.stateClassCodeGrid .redXButton
+{
+	float:right;
+	margin-left:0px;
+}
+.stateClassCodeGrid  li
+{
+	padding:0px;
+	/* border-bottom:1px solid #dedede;  */
+}
+.coveragesClassCodeList li
+{
+	/* border-bottom:1px solid #dedede; */
+}
+/*--Class Codes Grid--END*/
+.addOwnerOfficerModal 
+{
+	width:436px;
+}
+.ownerOfficer
+{
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	width:440px;
+}
+
+.ownerOfficer .mx-referenceselector-input-wrapper
+{
+	overflow:inherit;
+}
+
+.ownerOfficerStateContainer
+{
+	width:100%;
+	float:left;
+}
+
+.ownerOfficer .form-control
+{
+	margin-left: 1px;
+	margin-bottom: 10px;
+}
+
+.ownerOfficer .mx-name-container1
+{
+	width:436px;
+}
+
+.ownerOfficer .state
+{
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+.ownerOfficer .corpType
+{
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+.ownerOfficer .title
+{
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+.ownerOfficer .percentOwner
+{
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+.ownerOfficer .suffixLabel
+{
+	width: 100%;
+}
+
+.ownerOfficer .suffix
+{
+	width: 30%;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+.ownerOfficer .includeExclude
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.ownerOfficer .insurance{
+	margin-left: 10px;
+}
+.ownerOfficer .moreThanTwoOfficers
+{
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ownerOfficer .classLabel
+{
+	width: 100%;
+}
+
+.ownerOfficer .classCode
+{
+	width: 60%;
+}
+
+.ownerOfficer .annualPayroll
+{
+	width: 30%;
+}
+
+.ownerOfficer .firstName
+{
+	clear: both;
+	width: 105px;
+	float: left;
+	margin-bottom:0px;
+}
+
+.ownerOfficer .middleInitial
+{
+  	float: left;
+  	width: 30px;
+  	margin:0px 10px;
+	margin-left: 10px;
+	margin-bottom:0px;
+}
+
+.ownerOfficer .lastName
+{
+  	float: left;
+  	width: 150px;
+	margin-bottom:0px;
+}
+
+.ownerOfficer .payrollLabel1
+{
+	float:left;
+	margin:0px;
+	padding-right: 0px;
+}
+.ownerOfficer .firstName .form-control 
+{
+	margin-right:10px;
+	margin-bottom:0px;
+}
+.ownerOfficer .lastName .form-control 
+{
+	margin-right:10px;
+	margin-bottom:0px;
+
+}
+.ownerOfficer .alert-danger
+{
+	margin-left:5px;
+}
+
+.ownerOfficer .alert-danger{
+	float:left;
+}
+.ownerOfficer .classCode .alert-danger
+{
+	margin-left:10px;
+	margin-top:-10px;
+}
+.ownerOfficer .annualPayroll .alert-danger
+{
+	margin-left:10px;
+	margin-top:-10px;
+}
+.ownerOfficer .state .alert-danger
+{
+	margin-left:10px;
+	margin-top:-10px;
+}
+.ownerOfficer .infoMessage
+{
+	width:93%;
+	margin-left:5px;
+}
+.ownerOfficer .ownerOfficerSuffix
+{
+	float: left;
+	margin-left: 12px;
+}
+
+.ownerOfficer select{
+	width: auto;
+}
+
+.wCProductContainer .agentList .alert-danger
+{
+	margin-left:8px;
+}
+.ownerOfficer .lastName .alert-danger
+{
+	margin-left:10px;
+}
+
+.ownerOfficer .payrollLabel2
+{
+	float:left;
+	margin:0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.ownerOfficer .payrollValues
+{
+	float:left;
+}
+
+.ownerOfficer .payrollValues label
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 3px;
+}
+
+.ownerOfficerButtons
+{
+	padding-top: 20px;
+	width: 95%;
+	margin-left: 10px;
+	
+}
+.ownerOfficer .mx-dataview-controls
+{
+	padding:20px 10px 20px 5px;
+}
+.ownerOfficerContent
+{
+	float:left;
+	width:319px;
+
+}
+.workerCompOwnerOfficer .ownerOfficeListView
+{
+	padding:5px 0px 5px 0px;
+	
+	
+}
+.workerCompOwnerOfficer .ownerOfficeListView .mx-listview-item
+{
+	padding:5px 0px 5px 0px;
+	border-top:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+}
+.workerCompOwnerOfficer .ownerOfficerEditButton
+{
+	float:left;
+	padding:6px 0px 6px 0px;
+}
+.workerCompOwnerOfficer .ownerOfficeExclusion 
+{
+	float:left;
+	padding-left:3px;
+}
+.workerCompOwnerOfficer .ownerOfficeExclusion :before
+{
+	content:"(";
+}
+.workerCompOwnerOfficer .ownerOfficeExclusion :after
+{
+	content:")";
+}
+.mx-layoutcontainer .mx-placeholder .mx-placeholder .pageButtons
+{
+	margin-right:0px;
+}
+.lightText label
+{
+	color:#888;
+	padding-left:0px;
+}
+.workerCompOwnerOfficer .codeDescription, .workerCompOwnerOfficer .codeDescription label
+{
+	color:#888;
+	padding-left:0px;
+	width:220px;	
+}
+
+.viewWidget .mx-dataview-content {
+/* This if for the new class code drop down widget to display when owner officer modal is in error*/
+    overflow-x: visible;
+    overflow-y: visible;
+} 
+
+.payrollAmountFields label
+{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.workerCompOwnerOfficer .payrollAmountFields label
+{
+	margin-right:0px;
+}
+
+.annualPayrollHeader
+{
+	float:right;
+	margin-right:5px;
+	color:#888;
+}
+.excludingOwnersLabel
+{
+	padding-left:3px;
+	color:#888;
+}
+.totalClassCodeTotalPayroll
+{
+	float:right;
+	padding-right:25px;
+	text-align:right;
+}
+/*.totalClassCodeTotalPayroll label:before
+{
+	content:"$";
+}
+*/
+.modalCancel
+{
+	float:left;
+}
+
+.modalSave
+{
+	float:right;
+	margin-bottom:0px;
+}
+
+.modalButtonBar .mx-dataview-controls
+{
+	padding:0px;
+}
+
+
+/*Empty Listview*/
+.stateClassCodeGrid .mx-listview-empty
+{
+	display:none;
+}
+.ownerOfficeListView .mx-listview-empty
+{
+	display:none;
+}
+.bureauNameList .mx-listview-empty
+{
+	display:none;
+}
+.codeDescriptionGrid .mx-listview-empty
+{
+	display:none;
+}
+.ownerOfficeListView .mx-listview-empty
+{
+	display:none;
+}
+.classDetailsText .mx-listview-empty
+{
+	display:none;
+}
+.claimsHistory
+{
+	width:100%;
+}
+.claimsHistory .mx-listview-empty
+{
+	display:none;
+}
+
+.classFitQuestionsList .mx-listview-empty
+{
+	display:none;
+}
+
+.modal-body
+{
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.FieldTablePos td, th
+{
+	margin-left:0px;
+	padding: 0px;
+}
+
+/* Add Class Modal - END */
+
+/* Address Standardization Modal - BEGIN */
+
+.addressStdModal
+{
+	width:360px;
+}
+
+.addressStdModal  .modal-body
+{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+
+.addressStdName label
+{
+	padding:0px;
+	margin-left:11px;
+	font-size:16px;
+}
+
+.addressStdStreet label
+{
+	padding:0px;
+	height:20px;
+}
+
+.addressStdStreetListview ul li
+{
+	padding:0px;
+}
+
+.addressStdStreetListview
+{
+	padding:0px;
+	margin-left:10px;
+}
+
+.addressStdCity label
+{	
+	padding-left:9px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-right:0px;
+	margin-left:2px;
+	float:left;
+}
+
+.addressStdState label
+{
+	padding:0px;
+	float:left;
+	margin-right:3px;
+	margin-left:3px;
+}
+
+.addressStdZip label
+{
+	padding:0px;
+	margin:0px;
+	float:left;	
+}
+
+.addressStdComma
+{
+	padding:0px;
+	margin-right:0px;
+	float:left;
+}
+
+.addressStdStreet, .addressStdCity, .addressStdState, .addressStdZip, .addressStdComma
+{
+	font-size:16px;
+	font-weight:400;
+	color:#333333;
+}
+
+.addressTitles label
+{
+	padding:0px;
+	margin-left: 49px;
+	margin-bottom:10px;
+	
+}
+
+.addressTitles
+{
+	color:#888888;
+	font-size:16px;
+	font-weight:400;	
+}
+
+.addressContainers
+{
+	margin-bottom:15px;
+	height:125px;
+	/*width:300px; */
+	width:100%;
+	padding:10px;
+}
+
+.addressCSZContainer
+{
+	position: relative;
+	top: 0px;
+}
+
+.addressCityContainer, .addressStateContainer, .addressZipCodeContainer, .addressCommaContainer
+{
+	display:inherit;
+}
+
+.addressContainersEntered
+{
+	margin-bottom:30px;
+	height:100px;
+	/*width:300px;*/
+	width:100%;
+	padding:10px;
+	float: left;
+}
+
+.addressMainListview
+{
+	padding:0px;
+}
+
+.addressMainListview ul li
+{
+	overflow:hidden;
+	padding: 1px;
+	margin-bottom: 20px;	
+}
+
+.addressEnteredCSZ
+
+.addressMainListview ul li div mx-dataview mx-name-
+{
+	z-index:0 !important;
+}
+
+.addressMainDataview .mx-dataview-content
+{
+	overflow:hidden;
+}
+
+.addressMainDataview .mx-dataview-controls
+{
+	border:none;
+}
+
+.addressMainDataview
+{
+	z-index:0;
+	padding-top:15px;
+}
+
+
+.selectedAddressContainer
+{
+  background-color: #e5f1f8;
+  border: 1px solid #2988c6;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  z-index: -1 !important;
+  left: 0px;
+  top: 26px;
+}
+
+.errorSelectedAddressContainer
+{
+  background-color: #e5f1f8;
+  border: 1px solid #2988c6;
+  height:100%;
+}
+
+.unselectedAddressContainer
+{
+	border: 1px solid #c8c8c8;
+}
+
+.setAddressButton
+{
+	float:right;
+}
+
+.tryAgainButton
+{
+	float:left;
+}
+
+.selectedAddressButton, .selectedAddressButton:hover, .selectedAddressButton:active, .selectedAddressButton:focus, .selectedAddressButton:visited
+{
+   padding: 0px;
+  margin: -11px;
+  height: 130px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  background-color: #e5f1f8;
+  border: 1px solid #0072bc;
+}
+
+.unselectedAddressButton, .unselectedAddressButton:hover, .unselectedAddressButton:active, .unselectedAddressButton:focus, .unselectedAddressButton:visited
+{
+  padding: 0px;
+  margin: -11px;
+  height: 130px;
+  width: 100%;
+  z-index: 2;
+  border: none;
+  background: transparent;
+  background-color: transparent;
+  position: absolute;
+  border: 1px solid #bbbbbb;
+}
+
+.addressErrorContainer
+{
+	background:#FFFBD1;
+	margin-top:20px;
+}
+
+.addressErrorImage
+{
+  position: absolute;
+  z-index: 1;
+  top: 28px;
+  left: 8px;
+}
+
+.addressErrorMessage
+{
+  background-color: #fffbd1;
+  margin-bottom: 20px;
+}
+
+.addressErrorMessage label
+{
+  word-wrap: break-word;
+  padding: 6px 20px 20px 28px;
+}
+/* Address Standardization Modal - END */
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+/* Coverages Page - BEGIN */
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 300px;
+  padding-top: 50px;
+  background: #f07057;
+}
+.main-nav,
+.main {
+  position: relative; 
+}
+.product-header {
+    background: #fff;
+    height: 80px;
+    z-index: 150;
+    padding: 0px;
+    margin: 0px;
+	width: 940px;
+}
+
+header,
+.product-header-scrolled {
+  position: fixed;
+  width: 100%;
+  height: 95px;
+  top: 0;
+  left:0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:10px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4); 
+  }
+  
+.product-header-scrolled .productHeaderContainer
+{
+  width:982px;
+}
+ 
+.productHeaderContainer
+{
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+}     
+  
+.main {
+  background: #f2f2e8;
+  padding: 110px 50px 50px;
+  column-count: 2;
+  column-gap: 40px;
+}
+.agentDashboardContainer
+{
+	margin-top:20px;
+
+}
+.namedInsuredContainer
+{
+	background-color: white;
+    margin-bottom: 10px;
+    padding: 20px 24px 20px 24px;
+	position:inherit;
+}
+.namedInsuredContainerModal
+{
+	background-color: white;
+    margin-bottom: 10px;
+	width:800px;
+}
+.nameInsuredListContainer
+{
+	padding:0px;
+}
+.nameInsuredListContainer .mx-listview-item
+{
+	padding:0px;
+}
+.nameInsuredLabel
+{
+	width:375px;
+	margin-right:24px;
+}
+
+.namedInsuredRecordLock
+{
+	float:left;
+	width:100%;
+}
+
+.doingBusinessAsLabel
+{
+	width:305px;
+	margin-right:40px;
+}
+.userContainer
+{
+	float:left;
+	position:inherit;
+}
+.userContainer .mx-dataview
+{
+	position:inherit !important;
+}
+.userDropDown .dropdown-menu 
+{
+	margin-top:1px;
+	padding: 0px;
+	background: #ffffff;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	display: none;
+    position: relative;
+	top: 25px;
+    left: -162px;
+    z-index: 4;
+}
+.userDropDown
+{
+	float:right;
+	position:absolute;
+}
+.userDropDown.open
+{
+	float:right;
+	position: absolute;
+	/* z-index:1000; */
+}
+.userDropDown.open button
+{
+	background-image: url('../img/Layouts$arrow.png')!important;
+    background-repeat: no-repeat;
+    background-position: left 13px center !important;
+    background-color: #f0f0f0!important;
+    outline: none !important;
+    border: none !important;
+	box-shadow:none !important;
+	position:relative !important;
+	padding-top:21px;
+}
+.userDropDown button,.userDropDown .open button,.userDropDown button:hover,.userDropDown button:focus, .userDropDown button:active, .userDropDown button:visited
+{
+    background-image: url('../img/Layouts$arrow.png');
+    background-repeat: no-repeat;
+    background-position: left 13px center;
+    background-color: #f0f0f0;
+    outline: none;
+    border: none;
+	padding-top:21px;
+}
+
+
+
+
+
+
+
+
+
+
+.printContainer
+{
+	position:inherit;
+	float:right;
+	width:90px;
+}
+.printContainer .mx-dataview
+{
+	position:inherit !important;
+}
+.printInfo .dropdown-menu 
+{
+	margin-top:1px;
+	padding: 0px;
+	background: #ffffff;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	display: none;
+    position: relative;
+	top: 49px;
+    left: -160px;
+    z-index: 50 !important;
+}
+.printInfo
+{
+	float:right;
+	position:absolute;
+}
+.printInfo.open
+{
+	float:right;
+	position: absolute;
+	/* z-index:1000; */
+}
+.printInfo.open button
+{
+	height:50px;
+	width:90px;
+	background-image: url('../img/Layouts$printer.png')!important;
+    background-repeat: no-repeat;
+    background-position: left 13px center !important;
+    background-color: #dedede;
+    outline: none !important;
+    border: none !important;
+	box-shadow:none !important;
+	position:relative !important;
+	border-left: 1px solid #dedede!important;
+    border-right: 1px solid #dedede!important;
+	padding-left:35px!important;
+}
+.printInfo button,.printInfo .open button,.printInfo button:hover,.printInfo button:focus, .printInfo button:active, .printInfo button:visited
+{
+	height:50px;
+	width:90px;
+    background-image: url('../img/Layouts$printer.png');
+    background-repeat: no-repeat;
+    background-position: left 13px center;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+	padding-left:35px;
+}
+.printInfo.open .printMenuButton
+{
+    background-color: #fff;
+    width: 158px;
+    background-image: none !important;
+    padding-left: 0px !important;
+    padding-right: 42px;
+}
+.printInfo .printMenuButton:hover
+{
+	width:158px;
+	background-color:red;
+}
+.printQuoteContainer
+{
+	border-top:1px solid #dedede;
+}
+/*************************************/
+.ratingTierInfoContainer
+{
+	position: inherit;
+}
+.ratingTierInfoContainer .mx-dataview
+{
+	position:inherit !important;
+}
+
+.ratingTierInfoContainer .mx-dataview-content{
+	overflow: hidden;
+}
+
+.ratingTierInfo .dropdown-menu 
+{
+	padding: 10px;
+	background: #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: none;
+    position: relative;
+	top: -62px;
+    left: 11px;
+    z-index: 4;
+	max-width:286px;
+}
+
+.irpmInfo .dropdown-menu 
+{	
+	top: -87px;
+    left: 36px;
+	min-width: 222px;
+}
+
+.ratingTierInfo .dropdown-menu::after,.ratingTierInfo .dropdown-menu::before
+{
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.ratingTierInfo .dropdown-menu::after
+{
+	border-color: rgba(213, 213, 213, 0);
+    border-bottom-color: #ffffff;
+    border-width: 12px;
+    margin-left: -13px;
+    content: '';
+    display: block;
+    position: absolute;
+    left: -11px;
+    top: 71px;
+    margin-top: -10px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-right: 12px solid #ffffff;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid transparent;
+}
+.ratingTierInfo .dropdown-menu::before
+{
+	content: '';
+    display: block;
+    position: absolute;
+    left: -26px;
+    top: 70px;
+    margin-top: -10px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 13px solid #D9D9D9;
+    border-bottom: 13px solid transparent;
+    border-left: 13px solid transparent;
+}
+.ratingTierInfo.open
+{
+	position: absolute;
+	/* z-index:1000; */
+}
+.ratingTierInfo.open button
+{
+	background-image: url('../img/Layouts$info_blue.png')!important;
+    background-repeat: no-repeat !important;
+    background-position: left 5px center !important;
+    background-color: white !important;
+    outline: none !important;
+    border: none !important;
+	box-shadow:none !important;
+	position:relative !important;
+}
+.ratingTierInfo button,.ratingTierInfo .open button,.ratingTierInfo button:hover,.ratingTierInfo button:focus, .ratingTierInfo button:active, .ratingTierInfo button:visited
+{
+	background-image: url('../img/Layouts$info_blue.png');
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-color: white;
+    outline: none;
+    border: none;
+	
+}
+.ratingTierInfoContainer .underwritingReasonHeader,.recommendedRatingTierContainer .recommendedRatingTierHeader
+{
+	font-size:16px;
+	width:100%;
+	font-weight:300;
+}
+.recommendedRatingTierContainer
+{
+	width:100%;
+	margin-bottom:10px;
+}
+
+.underwritingReasonsContainer
+{
+	width:100%;
+}
+
+.underwritingReasons
+{
+	float:left;
+	padding-top:0px;
+}
+.underwritingReasonHeader .underwritingReasons .mx-listview
+{
+	padding:0px;
+}
+.thumbsUpContainer
+{
+	float:left;
+	padding-top:7px;
+}
+.underwritingReasons .mx-listview .mx-listview-empty
+{
+	content:"No reason returned";
+	padding-top:10px;
+}
+.thumbsDownContainer
+{
+	float:left;
+	padding-top:11px;
+}
+/*************************************/
+.decInfoContainer
+{
+	position: inherit;
+	/* z-index:1000; */
+}
+.decInfoContainer .mx-dataview
+{
+	position:inherit !important;
+}
+.decInfo .dropdown-menu 
+{
+	padding: 5px;
+	background: #ffffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: none;
+    position: relative;
+	top: 33px;
+    left: -135px;
+    z-index: 4;
+}
+.decInfo .dropdown-menu::after,.decInfo .dropdown-menu::before
+{
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.decInfo .dropdown-menu::after
+{
+	border-color: rgba(245, 245, 245, 0);
+	border-bottom-color: #ffffff;
+	border-width: 12px;
+	margin-left: -13px;
+}
+.decInfo .dropdown-menu::before
+{
+	border-color: rgba(213, 213, 213, 0);
+	border-bottom-color: #d5d5d5;
+	border-width: 13px;
+	margin-left: -14px;
+}
+
+.decInfo.open
+{
+	position: absolute;
+	/* z-index:1000; */
+}
+.decInfo.open button
+{
+	background-image: url('../img/Layouts$info_blue.png')!important;
+    background-repeat: no-repeat !important;
+    background-position: left 5px center !important;
+    background-color: white !important;
+    outline: none !important;
+    border: none !important;
+	box-shadow:none !important;
+	position:relative !important;
+}
+.decInfo button,.decInfo .open button,.decInfo button:hover,.decInfo button:focus, .decInfo button:active, .decInfo button:visited
+{
+	background-image: url('../img/Layouts$info_blue.png');
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    background-color: white;
+    outline: none;
+    border: none;
+	
+}
+
+.decInfo .printedNamedInsuredMessage
+{
+	width:234px;
+	font-size:16px;
+	font-weight:300;
+	color:#333333;
+	margin-right:0px;
+	line-height:15PX;
+}
+.decInfo .printedNamedInsured label
+{
+	font-size:14px;
+	font-weight:400;
+	width:234px;
+	color:#333333;
+	margin-right:0px;
+	line-height:14px;
+}
+.taxIdContainer
+{
+	min-height: 1px;
+    float: left;
+}
+.taxIdLabel
+{
+	
+}
+.additionalNamedInsureds
+{
+	padding-left:0px;
+	padding-top:0px;
+	padding-right:0px;
+}
+.namedInsuredSuffix
+{
+	float:left;
+	width:54px;
+	margin-left:4px;
+}
+.nameInsuredEntityNameContainer
+{
+	width:375px;
+	margin-right:24px;
+}
+
+.nameInsuredModalEntityType
+{
+	min-height:1px;
+	width:127px;
+	margin-right:24px;
+}
+.nameInsuredModalDoingBusinessAs
+{
+	min-height:1px;
+	width:321px;
+	margin-right:40px;
+}
+.nameInsuredEntityName
+{
+	width:349px;
+}
+.nameInsuredDoingBusinessAs
+{
+	width:305px;
+	margin-right:40px;
+}
+.additionalNamedInsuredList
+{
+	padding:0px;
+}
+.additionalNamedInsuredList li
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+.workersCompContainer
+{
+	margin-top:20px;
+	
+}
+.productCoveragesContainer
+{
+	margin-top:20px;
+}
+.productCoveragesContainer .middleSection .mx-placeholder
+{
+	padding:0px;
+}
+.productCoveragesContainer .topSection .mx-placeholder
+{
+	padding:20px;
+}
+.productCoveragesContainer .topSection
+.coveragesProductCheckbox
+{
+  position: relative;
+  padding: 3px;
+  top: -5px;
+  left: 3px;
+}
+
+.coveragesProductBoxes
+{
+  background-color: #e5f1f8;
+  border: 1px solid #0072bc;
+  float:left;
+  height:75px;
+  padding-top:2px;
+}
+
+.coverageTitle label
+{
+	color:#333333;
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+.coveragePremium label 
+{
+    margin-left: 15px;
+    color: #333333;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.coveragePremiumAnnualized label
+{
+	font-size:14px;
+	font-weight:400;
+	margin-left: 1px;
+	color:#888888;
+	padding-top: 0px;
+    padding-bottom: 0px;
+	padding-left:1px;
+}
+.coverageEffDate label
+{
+	color:#888888;
+	padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top: -3px;
+	font-size:13px;
+	margin-right:11px;
+}
+
+.coverageEffDate label::before
+{
+	content:"eff. ";
+}
+
+.coverageExpDate label
+{
+	margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    color: #888888;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top: -3px;
+    font-size: 13px;
+}
+
+.coverageExpDate label::before
+{
+	content:"exp. ";
+}
+
+.coveragePremium label::before, .coveragesHeaderTotPremium label::before,.coveragePremiumHeader label::before {
+  content: "$";
+}
+
+.coverageHeaderListView
+{
+	float:left;
+	padding:0px;
+}
+
+.coverageHeaderListView ul li
+{
+	padding:0px;
+}
+
+.coveragesConvertApp
+{
+	float:right;
+	width:225px;
+}
+
+.coveragesHeader
+{
+	height:75px;
+}
+
+.coveragesHeader div
+{
+	overflow:hidden;
+}
+
+.coveragesHeaderTotPremiumContainer
+{
+	width:225px;
+}
+
+.coveragesHeaderTotPremium label
+{
+  float: right;
+  text-align:right;
+  margin-right: 0px;
+  padding-right: 0px;
+  font-size: 16px;
+  padding-top: 0px;
+  font-weight: 600;
+}
+
+.coveragesHeaderTotPremiumTitle
+{
+	padding:0px;
+	margin-right:4px;
+	color:#333333;
+	font-size:16px;
+	float:left;
+}
+
+.convertToAppButton
+{
+	width: 225px;
+}
+
+.coveragesPlaceholder2Container
+{
+	width:100%;
+	min-height: 60px;
+	padding: 0px 20px 20px;
+}
+
+.coveragesWritingCompany
+{
+	width:290px;
+}
+
+.coveragesPrintButton
+{
+    width: 100px;
+    float: right;
+    top: 6px;
+    position: relative;
+    right: 10px;
+}
+
+.coveragesCompanyNameContainer,.coveragesPayPlanContainer,.coveragesEmpLiabLimitContainer
+.coveragesCompanyNameContainer,.coveragesPayPlanContainer,.coveragesEmpLiabLimitContainer,.coveragesPaySenseContainer,
+.coveragesBillTypeContainer,.coveragesAccountNumberContainer, .coveragesBillTypeError
+{
+	float:left;
+}
+
+.coveragesPaySenseContainer,.coveragesAccountNumberContainer,.coveragesPayPlanContainer
+{
+	margin-left:10px;
+}
+
+.coveragesCompanyNameContainer
+{
+	
+	width:315px;
+	margin-left: 0px;
+}
+
+.coveragesBillTypeContainer
+{
+	width:110px;
+	margin-left: 10px;
+}
+
+.coveragesBillTypeLabel
+{
+	width:110px;
+	float: left;
+}
+
+.coveragesAccountNumberContainer
+{
+	width:100px;
+}
+
+.coveragesCompanyNameContainer label
+{
+	margin-right: 0px;
+	padding-left:0px;
+	padding-top: 0px;
+	font-weight:600;
+}
+
+.coveragesPayPlanContainer label, .coveragesEmpLiabLimitContainer label
+{
+	padding-top: 0px;
+}
+
+.coveragesBillType
+{
+	width:85px;
+}
+
+.billingHeaderContainer
+{
+	padding:20px 20px 0px 20px;
+}
+
+
+.fieldDisabled
+{
+    border: 1px solid #ddd;
+    height: 26px;    
+    background-color: #f3f3f3;
+	cursor: not-allowed;
+}
+
+.classCodeDropdown .fieldDisabled label{
+	width: 375px;
+	
+}
+
+.coveragesBillTypeDisabled
+{
+	width: 110px;
+}
+
+.coveragesBillTypeDisabled div label 
+{
+    padding-top: 2px;
+	cursor: not-allowed;
+}
+
+.coveragesBillTypeDisabled div 
+{
+    padding-top: 0px;
+}
+
+.coveragesPayPlanDisabled
+{
+	width: 255px;
+}
+
+.coveragesPayPlanDisabled div label 
+{
+    padding-top: 2px;
+	cursor: not-allowed;
+}
+
+.coveragesPayPlanDisabled div 
+{
+    padding-top: 0px;
+}
+
+
+.coveragesAccountNumber
+{
+	width:100px;
+}
+
+.coveragesCompanyListview,.coveragesEmpLiabLimitListview
+{
+	padding:0px;
+	min-height:60px;
+	height:auto;
+}
+
+.coveragesEmpLiabLimitListview ul li div .mx-dataview-content
+{
+	overflow:hidden;
+}
+
+.validAddress
+{
+	display:none;
+}
+.invalidAddress
+{
+	display:inherit;
+}
+
+.coverageClassCodeCoverages
+{
+	display:table;
+	padding:0px;
+	width:100%;
+}
+
+.coverageStatesListview
+{
+	padding:0px;
+}
+
+.coveragesCompanyListview ul, .coveragesCompanyListview li,.coveragesEmpLiabLimitListview ul,.coveragesEmpLiabLimitListview li,.coverageStatesListview ul, .coverageStatesListview li,
+.coverageClassCodeCoverages ul,.coverageClassCodeCoverages li
+{
+	padding:0px;
+	margin:0px;
+}
+.coveragesCompanyListview .mx-dataview
+{
+	position:inherit;
+}
+.coveragesPayPlanButton
+{
+	padding:0px;
+}
+
+.coveragesEmpLiabLimit
+{
+	width:300px;
+}
+.coveragesClassCodeList
+{
+	padding:0px;
+}
+
+.coveragesClassCodeList li,.coveragesClassCodeList .mx-list > li:first-child,.coveragesClassCodeList .mx-list > li:last-child
+{
+	border-bottom: 1px solid #dedede;
+}
+.selectedCoverageState,.selectedCoverageState:hover,.selectedCoverageState:focus
+{
+	background-color:#0072bc;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:600;
+	width:100%;
+	text-align:left;
+	padding-left:30px;
+}
+
+.selectedCoverageState:hover
+{
+	background-color:#0072bc;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:600;
+}
+
+.selectedCoverageState label
+{
+	background-color:#0072bc;
+	color:#ffffff;
+	font-size:16px;
+	font-weight:600;
+	position: absolute;
+    z-index: 1;
+    top: 7px;
+    right: 0px;
+}
+
+.coverageStateInfoIcon
+{	
+	width: 25px;
+	float: left;
+	padding: 10px;
+}
+
+.coverageStateButton:hover
+{
+	background-color:#d4d4d4;
+	color:#333333;
+	font-size:16px;
+	font-weight:400;
+	padding-left:30px;
+}
+
+.coverageStateButton
+{
+	background-color:#f3f3f3;
+	color:#333333;
+	font-size:16px;
+	font-weight:400;
+	width:100%;
+	border:0px;
+	text-align:left;
+	padding-left:30px;
+}
+
+.coverageStateButtonPremium
+{
+	text-align: right;
+	padding-top: 10px;
+/*   margin-top:12px;
+  float:right; */
+}
+
+.coverageStateButtonPremium::before,.selectedCoverageState label::before
+{
+  content:"$";
+}
+
+.coverageStateButtonPremium label
+{
+   margin: 0px;
+  padding: 0px;
+  font-size:16px; 
+}
+.coverageStateButtonPremiumError::before
+{
+  content:"$";
+}
+.coverageStateButtonPremiumError
+{
+	float:right;
+	margin-top:12px;
+}
+.coverageStateButtonPremiumError label
+{
+   margin: 0px;
+  padding: 0px;
+  font-size:16px; 
+}
+.coveragesStateContainer .coverageStatesListview
+{
+	padding: 8px 0px 8px 0px;
+    background-color: #f3f3f3;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    height:362px;
+    overflow-y: auto;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.coveragesStatesContainer
+{
+	padding-right:15px;
+	height:45px;
+}
+.stateCoveragesPlaceholder .mx-layoutcontainer-wrapper .mx-placeholder
+{
+	padding:0px;
+}
+.coverageState
+{
+	float:left;
+	margin-top:12px;
+	padding-left: 10px;
+}
+/* .coveragesStateContainer div
+{
+	padding:0px;
+} */
+.deductibleWidth
+{
+	width:87px;
+	min-height:1px;
+}
+.wavierOfSubWidth
+{
+	width:131px;
+	min-height:1px;
+}
+.numberOfJobsWidth
+{
+	width:98px;
+	min-height:1px;
+}
+.payrollWidth
+{
+	width:107px;
+	min-height:1px;
+}
+.irpmWidth
+{
+	width:95px;
+	min-height:1px;
+	display: flex;
+
+}
+
+.irpmErrorWidth{
+	width: 114px;
+	margin-right: 0px;
+}
+
+.coveragesIRPM{
+	display: inline;
+	width: 69px;
+}
+
+.coveragesIRPM label
+{
+	padding-left: 5px;
+	padding-top:3px;
+}
+
+.coveragesIRPM input
+{
+	width:69px;
+}
+
+.coveragesIRPM .alert.alert-danger.mx-validation-message:after {
+    content: "; format as 0.00.";
+}
+
+.dividendWidth
+{
+	width:100px;
+	min-height:1px;
+	display: flex;
+}
+
+.dividendErrorWidth{
+	width: 260px;
+}
+
+.coveragesDividend{
+	display : inline;
+	width: 74px;
+}
+
+.coveragesDividend label
+{
+    padding-right: 0px;
+	padding-top: 3px;
+    margin-right: 0px;
+    width: 53px;
+}
+
+.coveragesStateContainer
+{
+  width: 301px;
+  display: table-cell;
+  padding: 0px;
+  vertical-align: top;
+  background-color:#f3f3f3;
+  /* padding-top:10px; */
+}
+
+.coveragesClassCodesContainer
+{
+  width: 677px;
+  display: table-cell;
+  padding: 12px;
+  vertical-align: top;
+}
+
+.coveragesClassCodesContainerSingleState
+{
+  width: 980px;
+  padding: 12px;
+  vertical-align: top;
+}
+
+.coveragesSectionSpace
+{
+	width:4px;
+	display:table-cell;
+	background-color:#dddddd;
+}
+
+.coveragesGrid
+{
+	width:100%;
+	margin-top: 10px;
+}
+
+.coveragesGrid  .coveragesGridHeader
+{
+font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	background-color:#f6f6f6;
+	clear:both;
+	margin-bottom:0px;
+}
+.failedRating
+{
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	clear:both;
+	margin-bottom:0px;
+	border-bottom: solid 1px #dedede;
+}
+.coveragesGrid  .coveragesGridHeader .coveragesClassCodeHeader
+{
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	float:left;
+	margin-right:5px;
+	padding-left:14px;
+	padding-top:20px;
+	padding-bottom:10px;
+	width:98%;	
+	line-height:14px;
+}
+
+.coveragesGrid  .coveragesGridHeader .coveragesPayrollHeader
+{
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	float:left;
+	margin-right:5px;
+	padding-left:14px;
+	padding-top:20px;
+    padding-right: 0px;
+	text-align: right;
+	width:25%;
+}
+
+.coveragesGrid .coveragesGridHeader .coveragesRateHeader
+{
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	float:left;
+	margin-right:5px;
+	padding-left:14px;
+	padding-top:20px;
+	padding-right: 0px;
+	text-align: right;
+	width:35%;	
+}
+
+
+.coveragesGrid  .coveragesGridHeader .coveragesPremiumHeader
+{
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	line-height:14px;
+	float:right;
+	margin-right:5px;
+	padding-left:14px;
+	padding-top:20px;
+	padding-right: 5px;
+	text-align: right;
+	width:35%;
+}
+.coveragesGridClassCode
+{
+	/* width:7%; */
+	float:left;
+} 
+.coveragesGridClassCode label
+{
+	width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	float:left;
+	margin-right:0px;
+	padding-right:0px;
+	line-height:14px;
+}
+.coveragesGridClassCodeDescription
+{
+	width:85%;
+	float:left;
+}
+.coveragesGridClassCodeDescription label
+{
+	width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    padding-left: 0px;
+    word-wrap: break-word;
+}
+.codeDescriptionSeparator
+{
+	float: left;
+    margin-right: 0px;
+    padding: 0px;
+    padding-top: 6px;
+	padding:6px 3px 0px 3px;
+	line-height:14px;
+}
+.classCodeAndDescription
+{
+	float:left;
+	width:50%;
+}
+.ratabaseReturns
+{
+	float:left;
+	width:50%;
+}
+
+.coveragesGridPayroll
+{
+ width:24%;
+ float:left;
+ margin-left:1px;
+ padding-right:0px;
+ margin-right:0px;
+ text-align:right;
+}
+.coveragesGridPayrollEmpty
+{
+	width: 24%;
+    float: left;
+    margin-left: 1px;
+    padding-right: 0px;
+    margin-right: 0px;
+    text-align: right;
+}
+.coveragesGridRate
+{
+  width: 37%;
+  float: left;
+  text-align:right;
+}
+
+.coveragesGridPremium
+{
+  width: 34%;
+  float: right;
+  margin-left: 2px;
+  text-align:right;
+  padding-right: 10px;
+}
+
+.coveragesGridPremiumError
+{
+  width: 85px;
+  float: left;
+  margin-left: 2px;
+  text-align:right;
+  margin-right:0px
+}
+.coveragesGridPremiumError::before
+{
+  content:"$ ";
+}
+.coveragesGridPayroll label::before
+{
+	content:"$ ";
+}
+.coveragesGridPremium::before
+{
+  content:"$ ";
+}
+
+.coveragesGridPremium label,.coveragesGridRate label,.coveragesGridPayroll label,.coveragesGridClassCodeDescription label,.coveragesGridPremiumIncluded
+{
+	 padding-right:0px;
+	 margin-right:0px;
+	 padding-left:0px;
+	 line-height:14px;
+}
+.coveragesGridPremiumIncluded
+{
+	width:102px;
+    float: right;
+    margin-left: 2px;
+    text-align: right;
+	padding-right: 10px;
+}
+/* .coveragesGridClassCodeDescription label
+{
+	width: 250px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+	float:left;
+	
+} */
+.coveragesStateName
+{
+	width:75%;
+	text-align:left;
+	float:left;
+}
+.coveragesPremiumTotal
+{
+	padding-top:5px;
+}
+.coveragesPremiumTotal label
+{
+	width:25%;
+	text-align:right;
+	float:right;
+	color:#333333;
+	font-size:16px;
+	font-weight:600;
+	/* z-index:-1; */
+}
+
+.coveragesPremiumTotal label::before
+{
+	content:"$";
+}
+
+.coveragesDeductWaiverIRPMContainer
+{
+	clear:both;
+	padding-top:10px;
+}
+
+.coveragesEmpLiabLimitDataview
+{
+	padding:20px;
+}
+
+.coveragesStateNameContainer .HeadingTitle
+{
+	margin: 0px 10px 5px 0px;
+	padding-left: 0px;
+	border-bottom: solid 1px #dedede;
+	width: 100%;
+}
+
+.coveragesStateNameContainer .HeadingTitle label
+{
+	padding-left:0px;
+}
+
+.coveragesWOSContainer
+{
+	margin-left: 6px;
+}
+
+.coverageNumberOfJobs input
+{
+	width:98px;
+	text-align:right;
+}
+
+.coverageDeliberateIntentContainer
+{
+	width:150px;
+	height:25px;
+}
+
+.coveragesDeliberateIntentError{
+	height: 1px;
+	width: 147px;
+}
+
+.coverageDeliberateIntentLabel
+{
+	padding-top: 2px;
+    padding-left: 1px;
+}
+
+.coverageDeliberateIntentCheckbox input
+{	
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.coveragePayroll input
+{
+	width:105px;
+	text-align:right;
+}
+.coveragesStateContainer .coverageStatesListview li:hover
+{
+	background-color:#d4d4d4;
+	color:#333333;
+	font-weight:400;
+	
+}
+/* Coverages Page - END */
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.infoMessage
+{
+	width:100%;
+	font-size:14px;
+	font-weight:400;
+	margin:0px 5px 5px 0px;
+	padding:7px 5px 8px 20px;
+	background: url('../img/WorkersCompensation$info_blue.png') no-repeat left 6px top 9px #d5e9f6;
+	clear:both;
+	vertical-align: middle;
+}
+
+.infoMessageLossRun
+{
+	margin-top:40px;
+}
+
+.infoMessagePage
+{
+	margin:0 5px 10px 0px;
+	padding:6px 5px 6px 20px;
+	background: url('../img/WorkersCompensation$info_blue.png') no-repeat left 6px top 9px #d5e9f6;
+}
+
+.warningMessage
+{
+	width:100%;
+	font-size:14px;
+	font-weight:400;
+	margin:0 5px 10px 0px;
+	padding:8px 13px 6px 25px;
+	background: url('../img/Layouts$pageLevel_WarningRed.png') no-repeat left 6px top 7px #fbe6e6;
+}
+.warningInfoMessage
+{
+	width:100%;
+	font-size:14px;
+	font-weight:400;
+	margin:0 5px 10px 0px;
+	padding:8px 13px 6px 25px;
+	background: url('../img/Layouts$pageLevel_WarningYellow.png') no-repeat left 7px top 11px #fffbd1;
+}
+.warningInfoMessageLabel
+{
+	color:#333333;
+	/*display:inline-block;*/
+	/*float:left;*/
+	/*width:101%;*/
+	padding-top:0px;
+	/*vertical-align:middle;*/
+	line-height:14px;
+}
+
+.warningMessageLabel
+{
+	color:#cc0000;
+	display:inline-block;
+	float:left;
+	width:101%;
+	padding-top:0px;
+	vertical-align:middle;
+	line-height:14px;
+}
+
+.errorMessage
+{
+	width:100%;
+	font-size:14px;
+	font-weight:400;
+	margin:0 5px 10px 0px;
+	padding:7px 13px 6px 25px;
+	background: url('../img/Layouts$pageLevel_error.png') no-repeat left 6px top 5px #fbe6e6;
+}
+.successMessage
+{
+	width:100%;
+	font-size:14px;
+	font-weight:400;
+	margin:0 5px 10px 0px;
+	padding:7px 13px 6px 20px;
+	background: url('../img/Layouts$green_success.png') no-repeat left 6px top 6px #d6f1d6;
+}
+.successMessageLabel
+{
+	color:#333333;
+	display:inline-block;
+	float:left;
+	width:101%;
+	padding-top:0px;
+	vertical-align:middle;
+	line-height:14px;
+}
+.errorMessageLabel
+{
+	color:#cc0000;
+	display:inline-block;
+	float:left;
+	width:101%;
+	padding-top:0px;
+	vertical-align:middle;
+	line-height:14px;
+}
+
+.errorMessageLabel label
+{
+	color:#cc0000;
+	display:inline-block;
+	float:left;
+	width:100%;
+	padding-top:0px;
+	vertical-align:middle;
+	line-height:14px;
+}
+
+.fullContainer .pageHeaderContainer .mx-placeholder
+{
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.fullContainer .leftColumnContainer .mx-placeholder
+{
+	padding-top:0px;
+}
+.errorMessageContainer
+{
+	padding: 0px;
+    margin: 0px;
+	padding: 20px 24px 0px 0px;
+    /*padding-top: 20px;*/
+}
+
+.errorMessageContainer .mx-placeholder
+{
+	background-color: #dddddd !important;
+    margin-bottom: 0px !important;
+}
+
+.errorMessageEffExpDate {
+    line-height: 110%;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px 10px 0px;
+    padding: 11px 21px 6px 20px;
+    background: url('../img/Layouts$pageLevel_error.png') no-repeat 6px 11px #fbe6e6;
+}
+
+.infoMessageImage
+{
+	
+	float:left;
+	display:inline-block;
+	vertical-align:middle;
+	
+}
+
+.infoMessageLabel, .infoMessageText label
+{
+	display:inline-block;
+	float:left;
+	width:auto;
+	padding-top:0px;
+	vertical-align:middle;
+	border: none;
+}
+
+.infoMessageLabelPage{
+	padding-left: 10px;
+}
+
+.infoMessageSpacing
+{
+	clear:both;
+}
+
+/* Coverages Page - END *
+
+/* Calendar Pop Up styling */
+.dijitCalendarContainer
+{
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.dijitButtonNode *
+{
+	padding-left:2px;
+}
+
+.dijitCalendarContainer th, .dijitCalendarContainer td
+{
+	padding: 5px;
+}
+
+.dijitCalendarDateTemplate
+{
+	text-align:center;
+}
+
+.dijitCalendarDayLabelTemplate
+{
+	text-align:center;
+	font-weight: bold;
+}
+
+.dijitButtonNode 
+{
+	border:0;
+	padding-left:12px;
+}
+
+.dijitCalendarMonthMenu
+{
+	display:none;
+}
+
+.dijitCalendarYearLabel
+{
+	text-align:center;
+}
+
+.dijitCalendarSelectedYear, .dijitCalendarCurrentMonthLabel
+{
+	font-weight:bold;
+}
+
+.dijitCalendarPreviousMonth, .dijitCalendarNextMonth, .dijitCalendarPreviousYear, .dijitCalendarNextYear
+{
+	color:lightgray;
+}
+
+/*Navigation Bar*/
+.navigationContainer1
+{
+	height:87px;
+/* 	border:1px solid red; */
+}
+.navigationContainer1 .mx-placeholder
+{
+	padding:0px !important;
+}
+.navigationContainer .mx-placeholder .mx-placeholder 
+{
+	padding:0px;
+	margin:0px;
+	background-color:#ddd;
+}
+
+.navigationContainer .mx-placeholder 
+{
+	padding:0px;
+	margin:0px;
+}
+
+.navigationContainer1 .navigationBarContainer
+{
+	padding:3px 0px 3px 0px;
+	width:982px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.navigationContainer1 .activeNavigationContainer
+{
+	width:100%;
+	background-color:#dddddd;
+}
+.navigationContainer1 .activeNavigationContainer .activeNavigationBarContainer
+{
+	width:982px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.navigationContainer1 .navigationBarContainer,.navigationContainer1 .navigationBarContainer .mx-dataview-content
+{
+	height:36px;
+}
+.mx-layoucontainer-top .mx-layoutcontainer-wrapper .mx-placeholder .mx-placeholder
+{
+	padding:0px;
+}
+.navigationContainer1 .navigationBarContainer,.navigationContainer1 .navigationBarContainer .mx-dataview-content
+{
+	overflow:hidden;
+}
+.navigationContainer1 .navigationBar
+{
+	padding:0px;
+	width:982px;
+}
+.navigationContainer1 .navigationBar ul
+{
+	overflow:hidden;
+}
+.navigationContainer1 .navigationBar .mx-listview-item
+{
+	float:left;
+	padding:0px;
+	margin-right:5px;
+}
+.navigationContainer1 .navigationBar .mx-listview-item .mx-dataview-content
+{
+	overflow:hidden;
+}
+.navigationContainer1 .navigationBar label
+{
+	margin-right:0px;
+	/* vertical-align:middle; */
+}
+.navigationContainer1 .navigationBar .navButton,.navigationContainer1 .homeNavButton
+{
+	padding:5px;
+	border:1px solid #bbbbbb;
+	height:30px;
+	font-size:14px;
+	font-weight:300;
+	vertical-align:middle;
+	
+}
+.homeNavButton
+{
+	float:left;
+	margin-right:5px;
+}
+.active-line 
+{
+	position: relative; 
+	bottom: 0px; 
+	left: 0;  
+	height: 7px; 
+	background: #0072bc; 
+}
+/* .navigationContainer .navigationBar .navContainerActive
+{
+	border-bottom:5px solid blue;
+} */
+.navButtonEnabled
+{
+	background-color:#ffffff;
+	color:#333333;
+	
+}
+
+.navSuccessful
+{
+	background-image: url('../img/Layouts$green_success.png'); 
+	background-repeat:no-repeat;
+	background-position: left 5px center;
+	
+}
+.navError
+{
+	background-image: url('../img/Layouts$pageLevel_error.png'); 
+	background-repeat:no-repeat;
+	background-position: left 5px center;
+	
+}
+.navigationContainer1 .navigationBar .activeNavButton .navInProgress label
+{
+	margin-left:0px;
+}
+.disabledNavButton
+{
+	background-color:#e5e5e5;
+	
+	
+}
+.disabledNavButton label
+{
+	margin:0px;
+	padding:0px;
+	color:#888888;
+	font-weight:300;
+}
+.activeNavButton
+{
+	padding:5px;
+	border:1px solid #bbbbbb;
+	height:30px;
+	font-size:14px;
+	font-weight:300;
+	vertical-align:middle;
+	background-color:#ffffff;
+	color:#333333;
+}
+.activeNavButton label
+{
+	margin-left:20px;
+	padding:0px;
+	color:#333333;
+	font-weight:600;
+	margin-bottom:5px;
+}
+.activeNavButtonNoImage
+{
+	padding:5px;
+	border:1px solid #bbbbbb;
+	height:30px;
+	font-size:14px;
+	font-weight:300;
+	vertical-align:middle;
+	background-color:#ffffff;
+	color:#333333;
+}
+.activeNavButtonNoImage label
+{
+	margin-left:0px;
+	padding:0px;
+	color:#333333;
+	font-weight:600;
+	margin-bottom:5px;
+}
+.navigationContainer1 .navigationBar .navButton img
+{
+	margin-right:0px;
+	margin-bottom:4px;
+	height:18px;
+}
+
+/*.hideNullOption_RefSelect div select option:first-child {
+    display: none;
+}*/
+
+
+/* UW Questions Begin */
+.underwriting.buttonBar
+{
+	height: 67px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.underwritingButtonContainer
+{
+	margin-top:20px;
+	padding:10px;
+	height:65px;
+}
+.billingButtonContainer
+{
+	width:980px;
+}
+.UWQuestionContainer ul li:nth-child(odd) 
+{
+	background: #f0f0f0;
+}
+.subQuestionContainer ul li:nth-child(odd)
+{
+	background:none;
+}
+
+.UWQuestionsPage .mx-dataview-content
+{
+	overflow:hidden;
+}
+
+.UWQuestionContainer ul li div
+{
+    height:auto;
+}
+
+.UWQuestionNumbers
+{
+	width:25px;
+	float:left;
+}
+
+.UWQuestionNumbers label::before{
+  counter-increment: question;         /* Increment the question counter */
+  content: " " counter(question) ". "; /* Display the question counter   */
+  padding-top:2px;
+}
+
+.UWQuestions
+{
+	width:690px;
+	float:left;
+	padding-right 0px;
+}
+
+.UWQuestionNumbers label
+{
+	padding-top:1px;
+}
+
+.UWQuestions div label
+{
+	padding: 6px 0px 6px 0px;
+	margin-right: 0px;
+	display:inline;
+}
+
+.UWAnswers
+{
+	width:150px;
+	float:left;
+}
+
+.subQuestionContainer
+{
+	margin-left: 12px;
+}
+
+.UWSubQuestions
+{
+	float:left;
+	width:150px;
+	padding:0px;
+	background:none;
+}
+.UWSubQuestions label
+{
+	padding-top:0px;
+	padding-left:4px;
+}
+
+.UWSubQuestions input
+{
+	width:150px;
+	padding:0px;
+	border:none;
+	height:17px;
+	outline:none;
+	background:none;
+}
+
+.questionRadioButton
+{
+	margin-top:0px;
+}
+
+.questionRadioButtonSub
+{
+	margin-top:5px;
+}
+
+.questionRadioButton label
+{
+   padding-top:0px;
+   margin-right:0px;
+   width:41px;
+}
+
+.descriptionContainer 
+{
+	padding-left:0px;
+}
+
+.descriptionLabel label
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+.descriptionText textarea
+{
+	width:500px;
+}
+
+.subDescriptionContainer 
+{
+	padding-left:15px;
+}
+
+.subDescriptionLabel label
+{
+	padding-left: 10px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+.subDescriptionText textarea
+{
+	width:500px;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+/* UW Questions End */
+
+/**** Named Insured Modal Begin ****/
+.namedInsuredModal
+{
+	width:800px;
+}
+
+.namedInsuredModalType
+{
+	width:130px;
+	float:left;
+	margin-right: 20px;
+	padding-left: 0px;
+}
+
+.namedInsuredModalName
+{
+	width:30px;
+	float:left;
+	padding-left: 0px;
+}
+
+.namedInsuredModalNameParens
+{
+	width:300px;
+	float:left;
+	margin-right: 17px;
+	padding-left: 0px;
+	color:#888;
+}
+
+.namedInsuredModalTaxTypeLabel
+{
+	width:180px;
+	float:left;
+	margin-right: 4px;
+	padding-left: 0px;
+}
+
+.namedInsuredModalNameValue
+{
+	width:342px;
+	float:left;
+	margin-right: 20px;
+}
+
+.namedInsuredModalFirstNameValue
+{
+	width:105px;
+	float:left;
+	margin-right: 4px;
+}
+
+.namedInsuredModalMIValue
+{
+	width:46px;
+	float:left;
+	margin-right: 4px;
+}
+
+.namedInsuredModalLastNameValue
+{
+	width:111px;
+	float:left;
+	margin-right: 4px;
+}
+
+.namedInsuredModalSuffixValue
+{
+	width:68px;
+	float:left;
+	margin-right: 20px;
+}
+
+.namedInsuredModalTaxType
+{
+	width:110px;
+	float:left;
+	margin-right: 4px;
+	padding-left: 0px;
+}
+
+.namedInsuredModalTaxValue
+{
+	width:120px;
+	float:left;
+	margin-right: 5px;
+	padding-left: 0px;
+}
+/**** Named Insured Modal End ****/
+
+/****Confirmation Modal Begin***/
+.comfirmationModal
+{
+	max-width:400px;
+	width:200px;
+}
+.confirmationModal .close
+{
+	display:none;
+}
+.confirmationModalHeader
+{
+	color:#333333;
+	font-size:16px;
+	font-weight:600;
+}
+
+.confirmationModalText
+{
+	color:#333333;
+	font-size:14px;
+	font-weight:400;
+}
+
+.confirmationModalText label
+{
+	color:#333333;
+	font-size:17px;
+	font-weight:300;
+}
+
+.confirmationTextContainer
+{
+	margin-bottom:20px;
+}
+
+.confirmationTextContainer label
+{
+	padding:0px;
+}
+
+.appSubmitModalBullet ul
+{
+	padding-left:17px;
+	margin-bottom:40px;
+}
+
+.appSubmitModalBullet:focus
+{
+	outline:none;
+}
+
+.appSubmitModalBullet label
+{
+	padding:0px;
+}
+/****Confirmation Modal End***/
+
+
+/* Loss Runs Attach Start */
+.attachLossRuns_FileDocument
+.attach_FileDocument
+{
+	width:500px;
+	padding-top:15px;
+}
+
+.LossRunAttachListContainer
+{
+	display: inline-flex;
+}
+
+.LossRunAttachList li
+{
+	display: inline !important;
+	list-style-type: none !important;
+	float: left !important;
+	margin:0px;
+	padding:12px 20px 0px 0px;	
+}
+
+.LossRunAttachList span
+{
+	vertical-align: middle;
+}
+
+.LossRunAttachList label
+{
+	display:none;
+}
+/* Loss Runs Attach End */
+
+
+/* credits Attach Start */
+.CreditsAttachList
+{
+	padding:0px;
+	margin: 0px 0px 0px -10px;
+}
+.CreditsAttachList li
+{
+	display: inline !important;
+	list-style-type: none !important;
+	float: left !important;
+	/*margin:0px;
+	padding:12px 20px 0px 0px;	*/
+	white-space:nowrap;
+	/*width:100px;*/
+}
+
+.CreditsAttachList span
+{
+	vertical-align: middle;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	width: 213px;
+	padding: 0px 0px 0px 10px;
+	margin:0px;
+}
+
+.CreditsAttachList label
+{
+	display:none;
+}
+
+.creditsAttachMessage
+{
+	line-height:14px;
+	padding-top:0px;
+}
+
+.creditsAttachErrorMessage label
+{
+	line-height:14px;
+	padding-top:0px;
+}
+/* Credits attach end */
+
+/* Owner Officer attach Start */
+.infoMessageOwnerOfficer
+{
+	margin-top:15px;
+}
+
+.OwnerOfficerAttachListContainer
+{	
+	width:80%;
+	display: inline-flex;
+}
+
+.OwnerOfficerAttachUploadButton
+{
+	background-color:#fff !important;
+	border:1px solid #adadad !important;	
+	margin-top:10px;
+	height:45px;
+	margin-left:5px;
+}
+
+.OwnerOfficerAttachList li
+{
+	display: inline !important;
+	list-style-type: none !important;
+	float: left !important;
+	margin:0px;
+	padding:12px 20px 0px 0px;	
+	white-space:nowrap;
+}
+
+.OwnerOfficerAttachList span
+{
+	vertical-align: middle;
+	text-overflow: ellipsis;
+    overflow: hidden;
+	float:left;
+	width:80%;
+}
+
+.OwnerOfficerAttachList label
+{
+	display:none;
+}
+/* Owner Officer attach End */
+
+
+
+/* credits Attach Start */
+.CreditsAttachList
+{
+	padding:0px;
+	margin: 0px 0px 0px -10px;
+}
+.CreditsAttachList li
+{
+	display: inline !important;
+	list-style-type: none !important;
+	/*float: left !important;
+	margin:0px;
+	padding:12px 20px 0px 0px;	*/
+	white-space:nowrap;
+	/*width:100px;*/
+}
+
+/* .CreditsAttachList span
+{
+	vertical-align: middle;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	width: 213px;
+	padding: 0px 0px 0px 10px;
+	margin:0px;
+} */
+
+.CreditsAttachList label
+{
+	display:none;
+}
+
+.creditsAttachMessage
+{
+	line-height:14px;
+	padding-top:0px;
+}
+
+.creditsAttachErrorMessage label
+{
+	line-height:14px;
+	padding-top:0px;
+}
+/* Credits attach end */
+
+/* Locations Start */
+.LocationsList
+{
+	float:left;
+	padding-left:0px;
+}
+
+.LocationsList ul
+{
+	display:inline-flex;
+}
+
+.LocationsList li
+{
+	padding: 4px;
+}
+
+.LocationsContainer
+{
+	width:150px;
+	float:left;
+	border: 1px solid black;
+}
+
+.LocationsHeader
+{
+	float:left;
+	font-size: 16px;
+	font-weight: 300;
+	padding-left: 2px;	
+	margin-left:5px;
+	height:25px;
+}
+
+.LocationsHeader label
+{
+	color: #fff;
+	display:inline;
+}
+
+.LocationsCheckmark
+{
+	float:left;
+	width:25px;
+	height:25px;
+	background-color:#006dae;
+}
+
+.LocationsCityStateZip
+{
+
+	padding-left:5px;
+}
+
+.LocationsAddress2 label
+{
+	padding-top:0px !important;
+}
+
+.AddLocationTile
+{
+	background-color: white !important;
+	border: 1px solid black !important;
+	padding: 8px !important;
+	font-size: 16px !important;
+	font-weight: 200 !important;
+	color: #000 !important;
+	height:125px !important;
+	width:150px !important;
+	margin-top:13px !important;
+}
+
+.AddLocationTile img
+{
+	top:-25px !important;
+	left: 50px !important;
+}
+
+.locationListContainer .addLocationButton div
+{
+	padding:0px;
+}
+
+/* Claims Attach Start */
+.ClaimsAttach
+{
+	margin-top:50px;
+}
+
+.ClaimsAttachContainer
+{
+	display: inline-flex;
+	margin-top: 10px;
+}
+
+
+.ClaimsAttach .mx-fileinput 
+{
+	width:140px;
+}
+
+.ClaimsAttach .mx-fileinput .mx-wrapped-label
+{
+	display:none;
+}
+
+.ClaimsAttach .mx-fileinput-upload-button
+{
+	background-color:#fff;
+	border:1px solid #adadad;	
+	color:white;
+	text-indent: -61px;	
+}
+
+.ClaimsAttachUploadButton
+{
+	background-color:#fff !important;
+	border:1px solid #adadad !important;	
+	margin-top:10px;
+	height:45px;
+}
+
+.ClaimsAttach .mx-fileinput-upload-button::after
+{
+	content: 'Attach loss run(s)';
+	color: #333;
+	
+}
+
+.ClaimsAttach .downloadFile
+{
+	padding-top:12px;
+}
+
+/* Claims Attach End */
+
+/* General Attach Start*/
+.fileManager
+{
+	width:101%;
+}
+
+.fileManager input
+{
+	margin-right:8px;
+}
+
+.fileManager form input
+{
+	width:100%;
+	height:100%;
+	right:-8px !important;
+}
+/* General Attach End*/
+
+
+
+/* Primary Operations Start */
+.primaryOperations
+{
+	width:380px;
+}
+
+.primaryOperations .dijit
+{
+	width:380px;
+	border: 1px solid #999;
+	border-radius: 0px;
+    	height: 26px;
+    	padding: 1px 5px 1px 5px;
+}
+
+.refkitInputRefSelector 
+{
+	outline-color:#7294CB !important;
+}
+
+
+
+.dijitPopup
+{
+	max-height: 200px;
+	min-width:380px;	
+}
+
+.dijitComboBoxMenuPopup
+{
+	/*border: 1px solid #999 !important;*/
+	background-color:white;
+	max-height: 200px;
+	min-width:380px;
+}
+
+.dijitMenu
+{
+    border: 1px solid #999 !important;
+	max-height: 200px;
+}
+
+.dijitMenuItem
+{	
+	padding-left:5px;
+}
+
+.primaryOperations .dijitInputInner
+{
+	height:inherit;
+}
+
+.primaryOperationsError
+{
+	width:380px;
+
+}
+
+.primaryOperationsError .dijit
+{
+	width:380px;
+	border: 1px solid red;
+	border-radius: 0px;
+    	height: 26px;
+    	padding: 1px 5px 1px 5px;	
+	border: 1px solid red;
+	background-color:#ffefef;
+}
+
+.primaryOperationsError .dijitInputInner
+{
+	height:inherit;	
+}
+
+/* Primary Operations End */
+
+/* Class Codes selector Start */
+.addClassCodeSelector
+{
+	width:375px !important;
+}
+
+.addClassCodeSelector .dijit
+{
+	width:375px;
+	border: 1px solid #999;
+	border-radius: 0px;
+    	height: 26px;
+    	padding: 1px 5px 1px 5px;	
+}
+
+.addClassCodeSelector .dijitInputInner
+{
+	height:inherit;
+}
+
+.addClassCodeSelectorError 
+{
+	width:375px;
+
+}
+
+.addClassCodeSelectorError .dijit
+{
+	width:375px;
+	border: 1px solid #999;
+	border-radius: 0px;
+    	height: 26px;
+    	padding: 1px 5px 1px 5px;	
+	border: 1px solid red;
+	background-color:#ffefef;
+}
+
+.addClassCodeSelectorError .dijitInputInner
+{
+	height:inherit;	
+}
+
+/* Class Codes Selector End */
+
+
+/* Owner Officer Class Codes selector Start */
+.addOwnerOfficerClassSelector
+{
+	width:375px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.addOwnerOfficerClassSelector .dijit
+{
+	width:375px;
+	border: 1px solid #999;
+	border-radius: 0px;
+    	height: 26px;
+    	padding: 1px 5px 1px 5px;	
+}
+
+.addOwnerOfficerClassSelector .dijitInputInner
+{
+	height:inherit;
+}
+
+.addOwnerOfficerClassSelectorError
+{
+	width:375px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+
+}
+
+.addOwnerOfficerClassSelectorError .dijit
+{
+	width:375px;
+	border: 1px solid #999;
+	border-radius: 0px;
+    	height: 26px;
+    	padding: 1px 5px 1px 5px;	
+	border: 1px solid red;
+	background-color:#ffefef;
+}
+
+.addOwnerOfficerClassSelectorError .dijitInputInner
+{
+	height:inherit;	
+}
+
+/* Owner Officer Class Codes Selector End */
+
+/* Locations End */
+
+	padding-left:5px;
+}
+
+.LocationsAddress2 label
+{
+	padding-top:0px !important;
+}
+
+.AddLocationTile
+{
+	background-color: white !important;
+	border: 1px solid black !important;
+	padding: 8px !important;
+	font-size: 16px !important;
+	font-weight: 200 !important;
+	color: #000 !important;
+	height:125px !important;
+	width:150px !important;
+	margin-top:13px !important;
+}
+
+.AddLocationTile img
+{
+	top:-25px !important;
+	left: 50px !important;
+}
+
+.locationContainer
+{
+	min-height:460px;
+	max-height:460px;
+	width:982px;
+}
+.discardChanges
+{
+	float:left;
+	margin-right:5px;
+}
+.removeLocation
+{
+	float:left;
+}
+
+.singleAddress label
+{
+	width: 253px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+	float:left;
+	margin-right:0px;
+}
+.updateMailingAddressChkBox input
+{
+	float:left;
+	margin:0px;
+}
+.updateMailingAddressLabel
+{
+	float: left;
+    padding-top: 2px;
+    margin-left: 2px;
+}
+.locationCounty
+{
+	width:287px;
+	margin-bottom:15px;
+}
+.addLocation,.addLocation:focus,.addLocation:active,.addLocation:visited
+{
+	width:100%;
+	margin-top:0px;
+}
+
+.mx-layoutcontainer .locationListContainer .mx-placeholder
+{
+	padding:0px;
+	min-height:460px;
+	max-height:460px;
+}
+.locationListContainer .mx-dataview-content
+{
+	padding:5px; 
+}
+.locationListContainer .locationsList
+{
+	padding: 8px 4px 8px 4px;
+    background-color: #f3f3f3;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    height:362px;
+    overflow-y: auto;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.locationTitleContainer
+{
+	padding-left:25px;
+	min-height:45px;
+	max-height: 45px;
+}
+.locationListContainer .locationsList li
+{
+	padding:0px;
+}
+.locationListContainer .locationsList li:hover
+{
+	background-color: #d4d4d4;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+	
+    
+} 
+.locationsList .mx-listview-empty
+{
+	display:none;
+}
+.locationListContainer .locationsList,.locationListContainer .locationsList .mx-dataview-content
+{
+	padding: 3px 0px 3px 0px;
+}
+.addLocationContainer
+{
+	padding:4px;
+}
+.locations
+{
+	padding:4px;
+}
+.locationMailingAddressLabel
+{
+	float:left;
+	width:145px;
+	font-size:18px;
+}
+
+.locationMailingAddress label
+{
+	float: left;
+    width: auto;
+    max-width: 705px;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.locationsEditMailing
+{
+	float: left;
+    padding: 4.25px 0px 0px 10px;
+}
+.locationsEditMailing:focus
+{
+	text-decoration:underline;	
+}
+.headerContainer label
+{
+	color:#333333;
+	font-size:22px;
+	font-weight:300;
+	padding:0px;
+}
+.locationHeaderLabel
+{
+	float:left;
+	margin-right:5px;
+}
+.locationsCount
+{
+	margin-top:8px;
+}
+.locationsHeader
+{
+	color:#333333;
+	font-size:22px;
+	font-weight:300;
+	padding-left:23px;
+}
+.locationsHeader label
+{
+	color:#333333;
+	font-size:22px;
+	font-weight:300;
+
+}
+.locationsSubHeader
+{
+	color:#888888;
+	font-size:18px;
+	font-weight:300;
+}
+.locationsButtons
+{
+	bottom: 0;
+    	position: absolute;
+    	padding-bottom: 27px;
+	width:100%;
+}
+.locationsContentContainer,.locationsContentContainer .mx-dataview-content
+{
+	margin-left:5px;
+	min-height: 460px;
+    	max-height: 460px;
+	position:relative;
+	overflow:hidden;
+}
+.locationContent .headerContainer .locationsHeader
+{
+	padding-left:0px;
+}
+.mx-layoutcontainer-center .locationsContentContainer .mx-placeholder
+{
+	padding:0px;
+}
+.locationContent
+{
+	padding-left:7px;
+	padding-right:24px;
+}
+.locationTitleContainer[cssselectorhelper=true],.locationTitleContainer[cssselectorhelper=true]>div >label,.locationTitleContainer[cssselectorhelper=true]>div>div >label
+{
+	background-color:#777777 !important;
+	color:#ffffff !important;
+	font-size:16px !important;
+	font-weight:600 !important;
+	
+}
+
+.bureauContainer[cssselectorhelper=true]
+/*.bureauContainer[cssselectorhelper=true],.locationTitleContainer[cssselectorhelper=true]>div >label,.locationTitleContainer[cssselectorhelper=true]>div>div >label*/
+{
+	background-color:#fff !important;
+	color:#333333 !important;
+	border: 1px solid #bbb;
+}
+
+.bureauContainer[cssselectorhelper=true] label
+{
+	font-weight: 600 !important;
+	font-size: 14px !important;
+	vertical-align: middle;
+}
+
+.bureauContainer[cssselectorhelper=false]
+{
+	background-color:#e5e5e5 !important;
+	color:#333333 !important;	
+	border: 1px solid #bbb;
+}
+
+.bureauContainer[cssselectorhelper=false] label
+{
+	font-size:14px !important;
+	font-weight:300 !important;
+	vertical-align: middle;
+}
+
+.bureauNameList ul li>div>div>div:hover {
+    background-color: #d4d4d4 !important;
+    color: #333333 !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bureauListview ul li
+{
+	padding:0px;
+}
+
+.bureauListview
+{
+	padding: 15px;
+	padding-bottom: 20px;
+}
+
+.bureauInfoContainer
+{
+	padding:9px;
+}
+
+.coveragesStatesContainer[cssselectorhelper=true],.coveragesStatesContainer[cssselectorhelper=true]>div >label,.coveragesStatesContainer[cssselectorhelper=true]>div>div >label
+{
+	background-color:#777777 !important;
+	color:#ffffff !important;
+	font-size:16px !important;
+	font-weight:600 !important;
+	
+}
+
+
+/* .locationsList .mx-list > .mx-listview-item.selected
+{
+	background-color: #777777;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+} */
+/* Locations End */
+
+/* Edit Mailing Address Location Modal - Begin */
+.EditMailingAddressModal
+{
+	width:331px;
+}
+
+.EditMailingAddressModal .modal-body
+{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow:hidden;
+}
+
+.attnDropdown
+{
+	float: left;
+	width: 67px;
+	margin-right: 4px;
+}
+
+.attnName
+{
+	float: left;
+	width: 216px;
+}
+
+.changePrimaryAddressContainer
+{
+	margin-top:20px;
+}
+
+.changePrimaryAddressLabel
+{
+	float:left;
+}
+/* Edit Mailing Address Location Modal - End */
+
+/*Loading Spinner*/
+.mx-progress
+{
+	position: fixed;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 160px;
+    max-width: 90%;
+    background: none;
+    opacity: 0.8;
+    z-index: 5000;
+    border-radius: 4px;
+    padding: 20px 15px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.mx-progress-indicator
+{
+	width: 180px;
+    height: 180px;
+    margin: auto;
+    background: url('../img/Layouts$spiner.gif') no-repeat; 
+} 
+.mx-progress-hidden
+{
+	opacity:0;
+	display:none;
+}
+.mx-underlay
+{
+	opacity:0.6;
+	/* background-color:white; */
+}
+
+/* Class Fit */
+.travelQuestion
+{ 
+	background: #f0f0f0; 
+	height: auto;
+    min-height: 40px;
+    max-height: 60px;
+	margin: 0px 10px 0px 0px;
+	padding: 5px;
+    float: left;
+    width: 100%;
+}
+
+.travelQuestionErrorMessage
+{
+	padding-left:8px;
+}
+
+.travelQuestionLabel
+{
+	margin-bottom:5px;
+	padding-left: 8px;
+	padding-top:2px;
+}
+
+.travelQuestionRadioButton
+{
+	float: right;
+	padding-right: 3px;
+}
+
+.travelQuestionRadioButton label
+{
+	padding-top:3px;
+    margin-right:0px;
+    width:41px;
+}
+
+.classFitQuestionsContainer
+{
+	/*display:table-cell;*/
+}
+
+.classFitIndustryHeader label
+{
+	padding-left:0px;
+	font-size: 15px;
+    font-weight: 300;
+    color: #888888;
+}
+
+.classFitIndustryHeader
+{
+	margin-bottom: 10px;
+}
+
+.classFitQuestionsIndustry
+{
+	padding:0px;
+}
+
+.classFitQuestionsIndustry ul li
+{
+	padding:0px;
+}
+
+.classFitQuestionsIndustry .mx-listview-empty
+{
+	display:none;
+}
+.ProductListView.mx-listview .rulesMessageList
+{
+
+}
+.ProductListView.mx-listview .rulesMessageList .mx-listview-empty
+{
+	display:none !important;
+}
+.classFitTextQuestion input, .classFitTextQuestion label
+{
+	width: 86px !important;
+    float: right;
+    margin-right: 5px;
+	text-align:right;
+}
+
+.classFitDropdownQuestion div select
+{
+	width:auto;
+	float:right;
+	margin-right: 2px;
+}
+
+.classFitDropdownQuestion div label
+{
+	width:250px;
+	float:right;
+}
+
+.classFitDropdownQuestion
+{
+	padding:2px
+}
+
+.classFitQuestionDescription
+{
+    float: left;
+    width: auto;
+}
+
+.classFitQuestionDescription label
+{
+    padding-top:2px;
+	padding-left:5px;
+	padding-right:0px;
+	margin:0px;
+}
+
+
+
+
+.subQuestionsList,.subQuestionsList ul li
+{
+	padding:8px 0px 8px 0px;
+}
+
+.classFitQuestions
+{
+	padding:0px;
+}
+
+.classFitQuestions>ul>li:nth-child(odd) 
+{ background: #f0f0f0; }
+
+.classFitQuestions>ul>li
+{
+	padding:8px;
+}
+
+.underwritingQuestions
+{
+	padding:0px;
+}
+
+.underwritingQuestions>ul>li:nth-child(odd) 
+{ background: #f0f0f0; }
+
+.underwritingQuestions>ul>li
+{
+	padding:15px;
+}
+
+
+.classFitDescription
+{
+	padding: 2px;
+    padding-left: 4px;
+    width: 100%;
+}
+
+.classFitTitleContainer
+{
+	float:left;
+	width: 100%;
+}
+
+.classFitTitleContainer .HeadingTitle
+{
+	float:left;
+	width:auto;
+	margin-right:10px;
+}
+
+.classFitTitleContainer .helptext
+{
+	padding:0px;
+	margin-right:0px;
+	letter-spacing:0px;	
+}
+
+.classFitContainer
+{
+	padding:0px;
+	width:100%;
+}
+
+.classFitOtherAnswer
+{
+	width:100%;
+	padding-right:2px;
+}
+
+.classFitOtherDescContainer
+{
+	padding: 2px 0px 2px 0px;
+    float: left;
+    width: 100%;
+}
+
+.mainBottomContainer .mx-placeholder
+{
+	padding:0px !important;
+}
+
+.classFitErrorMessages
+{
+	padding-left:0px;
+}
+
+/* Generic Elements*/
+
+
+.linkButton
+{
+	padding:0px;
+}
+
+.gridHeader
+{
+	font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 14px;
+    background-color: #f6f6f6;
+    clear: both;
+    margin-bottom: 0px;
+}
+.gridHeader label
+{
+	padding-top: 20px;
+    padding-bottom: 10px;
+}
+.borderTop
+{
+	border-top: 1px solid #dedede;
+}
+.clear
+{
+	clear:both;
+}
+.floatRight
+{
+	float:right;
+}
+
+.dollarSignIcon input
+{
+	background:url('../img/QuoteAndApplication$dollarSign.png') left center no-repeat #fff;
+	padding-left:13px;
+}
+
+.dollarSignIcon label
+{
+	background:url('../img/QuoteAndApplication$dollarSign.png') left center no-repeat #fff;
+	padding-left:13px !important;
+}
+
+.percentIcon input
+{
+	background:url('../img/QuoteAndApplication$percent.png') right center no-repeat #fff;
+	padding-right:13px;
+}
+
+.percentIcon label
+{
+	background:url('../img/QuoteAndApplication$percent.png') right center no-repeat #fff;
+	padding-right:13px !important;
+	text-align:right;
+}
+
+/* Credits */
+
+.credits input[type=checkbox],.checkbox input[type=checkbox]
+{
+	margin: 1px;
+	/*width: 15px;*/
+	height: 15px;
+	vertical-align: bottom;
+	position: relative;	
+}
+
+.credits.mx-listview,.checkbox.mx-listview{
+
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+.creditState.mx-listview{
+	padding-left: 0px;
+}
+
+.credits label,.checkbox label
+{
+	margin-right: 0px;
+}
+
+.credits li,.checkbox li{
+	padding: 0px;
+	height:auto;
+	width: 250px;
+}
+.credits div,.checkbox div{
+	border: none;
+	display: inline-table;
+}
+
+.creditAmount
+{
+	/*display: block !important;*/
+	margin-left: 11px;
+	width: 120px;
+}
+
+.creditAmount input
+{
+	text-align:right;
+}
+
+.creditState li
+{
+	/*float: left;*/
+	padding: 0px;
+	display: inline-flex;
+	width:235px;
+}
+
+.creditState ul>li:nth-child(4n+1){
+	clear: both;
+}
+
+.creditStateLabel label{
+	color: #888888;
+	font-size: medium;
+	padding-left: 0px;
+}
+
+.creditError{
+	width: 200px;
+	display:block;
+}
+
+.creditHeading{
+	margin-bottom:	0px;
+}
+
+.creditsAttachContainer, .creditsAttachContainer:hover
+{
+	height:64px !important;
+	width:200px !important;
+	padding:10px 0px !important;
+}
+
+.creditsAttachButton, .creditsAttachButton:hover
+{
+	background-color:white !important;
+	border:1px solid #adadad !important;	
+	padding: 2px 14px 5px 14px !important;
+	margin-bottom: 5px !important;
+}
+
+.creditContainerNoQuestions
+{
+	padding:24px;
+}
+
+.dijitPlaceHolder .dijitInputField
+{
+	font-style:normal;
+	top:2px;
+}
+.nameHeaderContainer
+{
+	width:675px;
+}
+.workFlowHeading label
+{
+	font-size:30px;
+	font-weight:300;
+	color:#333333;
+	letter-spacing:1px;
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	padding-top:4px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.premiumContainer
+{
+	float:left;
+	padding:0px;
+}
+.premiumContainer li
+{
+	padding:0px;
+}
+
+.premiumContainer .mx-listview-empty
+{
+	display:none;
+}
+.coveragePremiumHeader label
+{
+	font-size: 30px;
+    font-weight: 300;
+    color: #029428;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 4px;
+	padding-right: 10px;
+}
+.coveragePremiumHeaderReCalc
+{
+	font-size: 30px;
+    font-weight: 300;
+    color: #029428;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 4px;
+	float:right;
+	width:36px;
+	
+}
+.mx-name-paging-first{
+	background:url('../img/Layouts$first.png');
+}
+
+.mx-name-paging-previous{
+	background:url('../img/Layouts$back.png');
+}
+
+.mx-name-paging-next{
+	background:url('../img/Layouts$forward.png');
+}
+
+.mx-name-paging-last{
+	background:url('../img/Layouts$last.png');
+}
+
+.filterButton, .filterButton:hover{
+	background-color: white;
+	float: left;
+	background:url('../img/Layouts$closeFilter.png');
+	background-repeat: no-repeat;
+	background-position: right 5px top 7px;
+	padding-right: 25px;
+	padding-left: 7px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.filterLabel{
+	margin-right:0px;
+}
+
+.quoteAppStatus{
+	margin-left: 82px;
+}
+
+.quoteAppStatus{
+	margin-left: 82px;
+}
+
+.productFilterLabel{
+	margin-left: 2px;
+}
+
+.recommendedValues label,.recommendedRatingTier label
+{
+	font-weight:normal;
+}
+.coverageRatingTier{
+	width: 325px;
+	float: left;
+	margin-right: 119px;
+}
+.coverageRatingTierHO
+{
+	width: 425px;
+	float: left;
+	margin-right: 20px;
+}
+.coverageRatingTierHO:after
+{
+	content: "*";
+	color: #e32;
+	font-size: 14px;
+}
+
+.coveragesPaySenseContainer{
+	width: 110px;
+}
+
+.coveragesPaysenseCheckbox
+{
+	padding-top:0px;
+	float:left;
+}
+
+.coveragesPaySense input{
+	margin-top: -1px;
+	vertical-align: top;
+	float:left;
+}
+
+.coveragesProductCheckbox input{
+	margin-top: -1px;
+	vertical-align: top;
+}
+
+.coveragesPayPlanContainer{
+	margin-left: 12px;
+}
+
+.coveragesBillTypeError{
+	width: 120px;
+}
+
+.deleteAllClaimsConfirmation .close, .attach_FileDocument .close{
+	display: none;
+}
+
+/* ======================== */
+/* Underwriting */
+/* ========================*/
+
+.uwQuestionsQuoteListview,.uwQuestionsQuoteListview>ul>li
+{
+	padding:0px;
+}
+
+.questionCheckboxes input
+{
+	float:left;
+	margin:0px;
+}
+.questionCheckboxes label
+{
+	padding:0px 0px 0px 5px;
+}
+
+.subQuestionsCheckboxes
+{
+	padding:0px;
+	clear:both;
+}
+
+.subQuestionsCheckboxes,.subQuestionsCheckboxes>ul>li
+{
+	padding: 0px 0px 0px 3px;
+}
+
+.subQuestionsTextbox,.subQuestionName label
+{
+	padding:0px;
+	clear:both;
+}
+
+.subQuestionName label
+{
+    padding: 8px 8px 8px 0px;
+    float: left;
+	width:83%;
+}
+
+.subQuestionsTextbox,.subQuestionsTextbox>ul>li
+{
+	padding: 0px 0px 0px 0px;
+}
+
+.subQuestionDescriptionContainer
+{
+	padding-left:19px;
+}
+
+.QuestionName
+{
+	width:84%;
+	float:left;
+}
+
+.questionUWDescriptionAnswer
+{
+	width:60%;
+}
+
+.questionUWDescriptionAnswer label
+{
+	word-wrap:break-word;
+	height:80px;
+}
+
+.QuestionNameDropdown
+{
+	width:auto;
+	float:left;
+}
+
+.QuestionName label,.QuestionNameDropdown label
+{
+	padding: 2px 0px 8px 0px;
+	margin:0px;
+	line-height: 14px;
+}
+
+.subQuestionName label
+{
+	padding: 2px 0px 8px 0px;
+	margin:0px;
+	line-height: 14px;
+}
+
+.QuestionName label::after,.subQuestionName label::after,.QuestionNameDropdown label::after
+{
+  content: "*";
+  color: #e32;
+  font-size: 15px;
+  margin-bottom:0px;
+}
+
+.UWIndustryHeader label
+{
+	padding: 6px 0px 6px 0px;
+	font-size: 18px;
+    font-weight: 300;
+    color: #888888;
+}
+
+.UWAdditionalInfoListView,.UWAdditionalInfoListView .mx-list li
+{
+	padding:0px;
+}
+
+.PageLevelMessages .mx-placeholder .mx-placeholder
+{
+	background: #dddddd;
+    padding: 0px;
+	margin:0px;
+}
+
+.UWPageLevelMessages>div>div
+{
+	padding:0px;
+}
+
+.UWPageLevelMessages ul li
+{
+	padding:0px;
+}
+
+.checkboxQuestionRecordLock div
+{
+	float:left;
+}
+
+.disabledCheckbox input
+{
+	float:left;
+}
+
+.recommendedDividend{
+	display: inline; 
+	
+}
+
+.recommendedDividend label{
+	margin-right: 0px !important;
+}
+
+.coverageClassCodeCoverages .mx-dataview{
+	position: inherit;
+}
+
+.paging{
+	display: inline;
+	background-color:white;
+	border:none;
+}
+
+.paging label{
+    margin-right: 0px;
+    font-size: 18px;
+    color: #888888;
+	
+	color: #888888;
+}
+
+.pagingDataView, .pagingDataView .mx-dataview-content{
+	display: inline;
+}
+
+.pagingContainer{
+	display: inline;
+	padding-left: 250px;
+	vertical-align: sub;
+}
+
+.countyDropdown{
+		width: 100px;
+}
+
+.coverageClassCodeCoverages .mx-dataview{
+	position: inherit;
+}
+.validationRulesMessage
+{
+	padding:0px;
+}
+.validationRulesMessage label
+{
+	color:#007CC6;
+	padding:0px;
+}
+
+.coverageClassCodeCoverages .mx-dataview{
+	position: inherit;
+}
+
+.paging{
+	display: inline;
+	background-color:white;
+	border:none;
+}
+
+.paging label{
+    margin-right: 0px;
+    font-size: 18px;
+    color: #888888;
+	
+	color: #888888;
+}
+
+.pagingDataView, .pagingDataView .mx-dataview-content{
+	display: inline;
+}
+
+.pagingContainer{
+	display: inline;
+	padding-left: 250px;
+	vertical-align: sub;
+}
+
+.countyDropdown{
+		width: 100px;
+}
+
+.coverageClassCodeCoverages .mx-dataview{
+	position: inherit;
+}
+.validationRulesMessage
+{
+	padding:0px;
+}
+.validationRulesMessage label
+{
+	color:#007CC6;
+	padding:0px;
+}
+.PaymentCenterContainer .mx-listview li
+{
+	padding:0px;
+}
+.PaymentCenterContainer .table
+{
+	width:922px;
+}
+
+.headerOverflow .mx-dataview-content{
+	overflow: inherit;
+}
+.tabLabel
+{
+	float:left;
+}
+.tabLabel label
+{
+	margin-right:0px;
+	padding:5px;
+	float:left;
+}
+
+.errorMessageHeader
+{
+	font-size: 16px;
+    font-weight: 600;
+}
+
+/*=== Disabled Fields BEGIN ===*/
+
+.disabledFieldRatingDate
+{
+	width:110px;
+}
+
+.ownerOfficer .disabledField
+{
+	margin-left:5px;
+}
+
+.ownerOfficer .disabledClassCodeField
+{
+	width: 87%;
+    margin-bottom: 10px;
+}
+
+.disabledFieldRatingDate label,.disabledField label,.disabledTextarea label
+{
+	padding: 2px 5px 2px 5px;
+    cursor: not-allowed;
+    border: 1px solid rgb(221, 221, 221);
+	background-color: #f3f3f3;
+    width: 100%;
+}
+
+.disabledTextarea label
+{
+	height:auto;
+	min-height:80px;
+	word-wrap: break-word;
+    text-overflow: initial;
+    white-space: normal;
+}
+
+.ownerOfficer .disabledTextarea label
+{
+	margin-left:5px;
+}
+
+.workerscompAnnivRateDate label
+{
+	width:110px;
+	background-color: #f3f3f3;
+}
+
+/*=== Disabled Fields END ===*/
+
+
+
+/*=== Custom Checkbox Widget ===*/
+.checkboxLabel
+{
+	display:none;
+}
+
+.checkboxMainContainer 
+{
+    display: initial !important;
+	float:left;
+}
+.submitApplicationModal .close{
+	display: none;
+}
+
+.bureauHistory label{
+	margin: 0px;
+	padding: 0px;	
+}
+
+.bureauHistory li{
+	padding-left: 0px;
+}
+
+.bureauHistory div{
+		display: inline;
+}
+
+.bureauHistoryDate label{
+	color:#888888;
+}
+.contactRecordLockDataview
+{
+	position:initial;
+	float:left;
+}
+
+.RecordLockContainer > div
+{
+	overflow:hidden;
+}
+
+.recordLockBureauFileNumber
+{
+	float:left;
+	width:135px;
+}
+
+.recordLockAnniversaryRatingDate
+{
+	float:left;
+	width:27%;
+}
+
+/* - New AutoComplete Widget for Primary Ops and Class Codes - */
+span.select2-selection.select2-selection--single {
+    border-radius: 0px;
+	background-color: #fff;
+    border: 1px solid #999;
+	height:26px;
+}
+
+span.select2-selection.select2-selection--single:focus {
+	outline:none;
+}
+
+span.select2-selection__placeholder {
+    color: #555 !important;
+}
+
+span.select2-selection__rendered {
+    color: #555 !important;
+    line-height: 25px !important;
+}
+
+

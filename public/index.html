@@ -7,19 +7,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/introjs.css">
+        <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="stylesheets/widgets.css">
+        <link rel="stylesheet" href="stylesheets/theme.css">
   </head>
 
   <body>
+	<script type="text/javascript" src="js/intro.js"></script>
     <table>
       <tr>
         <td style= "width:30%;">
           <img class = "newappIcon" src="images/newapp-icon.png">
+          <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().start();">Show me how</a>
         <td>
-            <h1>Hi there!</h1>
+            <h1 data-step="1" data-intro="Get it, use it.">Hi there!</h1>
           <p>Thanks for creating a
-            <span class = "blue">NodeJS Starter Application</span>.
-            To get started see the Start Coding guide under your app in your dashboard.
+            NodeJS Starter Application. </br>
+            <a href="page1.html">To find an agent that loves you but keeps the relationship at a level appropriate for the workplace, click here!</a></br>
+            <a href="customer.html">Customer page</a></br>
+            <a href="coverages.html">Coverages</a></br>
+            <a href="productionselection.html">Production Selection</a></br>
     </table>
+    
+    
+    
+    
+	    <div id="survey" style="align-items: center; height: 500px; width:600px; margin-left: auto; margin-right: auto; border-radius: 50px;" class="jumbotron" >
+	    	<h2 style="text-align: center;">Tell us how it went!</h2></br>
+	    	<p style="text-align: center;">Did you find this tutorial helpful?</p>
+	    	<div class="btn-group" style="display:flex; margin-left:auto; margin-right:auto; width: 170px" role="group" aria-label="idk">
+			  	<button type="button" style="border-style: solid; border-width: 3px;" class="btn btn-default">1</button>
+			  	<button type="button" style="border-style: solid; border-width: 3px;" class="btn btn-default">2</button>
+			  	<button type="button" style="border-style: solid; border-width: 3px;" class="btn btn-default">3</button>
+			  	<button type="button" style="border-style: solid; border-width: 3px;" class="btn btn-default">4</button>
+			  	<button type="button" style="border-style: solid; border-width: 3px;" class="btn btn-default">5</button>
+			</div>
+			</br><p style="text-align: center;">Please give us feedback on your experience using QAS</p>
+			<div class="input-group" style="margin:0 auto;">
+			  <textarea id="goAway" style="width:400px; height:160px; margin-left: auto; margin-right: auto;" placeholder="Comment here!" aria-describedby="basic-addon1">
+			  </textarea>
+			</div>
+			<a id="startButton" class="btn btn-large btn-success" style="margin-left: 450px; margin-right:20px;" href="javascript:void(0);" onclick="javascript:introJs().start();">Take a tour</a>
+	    
+	    </div>
+	    
+	    
   </body>
 
 </html>

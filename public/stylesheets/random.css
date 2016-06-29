@@ -1,0 +1,16 @@
+.rightAlignMe {
+    text-align: right;
+}
+.smallthing{
+	width:100px;
+}
+.floatingBox{
+    z-index: 1;
+    position: absolute;
+    width: 660px;
+    height: 20px;
+    pointer-events: none;
+}
+.numberOne {
+	width: 14%;
+}
